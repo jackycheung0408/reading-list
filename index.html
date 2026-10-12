@@ -78,7 +78,7 @@ dt { color: var(--muted); } dd { margin: 0; }
 <div class="wrap">
   <header>
     <h1>Reading List</h1>
-    <p>（靜態副本，2026-10-12 更新；標記只存在你這台裝置的瀏覽器）每個平日早上自動掃描 LinkedIn，以台北、新竹及台灣 hybrid 職缺為主，只收符合度 50% 以上、職級與薪資符合資深階段、非新創、非台商的外商職缺；上海和香港只收特別好的機會。</p>
+    <p>（每天自動同步，最後更新 <span id="synced">—</span>；在這裡改的標記只存在這台裝置的瀏覽器）每個平日早上自動掃描 LinkedIn，以台北、新竹及台灣 hybrid 職缺為主，只收符合度 50% 以上、職級與薪資符合資深階段、非新創、非台商的外商職缺；上海和香港只收特別好的機會。</p>
   </header>
   <div class="tabs" role="tablist">
     <button class="tab" role="tab" id="tab-jobs" aria-selected="true">職缺池</button>
@@ -215,12 +215,16 @@ document.getElementById("tab-jobs").onclick = () => showTab("jobs");
 document.getElementById("tab-market").onclick = () => showTab("market");
 try { if (localStorage.getItem("jobboard-tab") === "market") showTab("market"); } catch (e) {}
 
-const DATA = {"jobs": [{"id": "4477269114", "fit": 68, "title": "Business Development Lead, yuu Rewards Hongkong", "company": "DFI Retail Group", "location": "香港", "workplace": "未註明", "why": "零售會員點數／CRM／全通路，要求中英粵三語，對應零售品牌、CRM 遷移和香港上線經驗（香港例外收錄：產業高度吻合）", "gap": "要求合作夥伴開發實績、帶團隊經驗和港澳零售人脈", "level": "✅ 符合（略高）：Lead 職，要帶 BD 小團隊", "url": "https://www.linkedin.com/jobs/view/4477269114/", "date": "2026-10-12", "status": ""}, {"id": "4350121562", "fit": 52, "title": "Account Executive, Taiwan", "company": "Everpure（原 Pure Storage）", "location": "台北", "workplace": "未註明", "why": "美商上市公司的企業級科技 AE，透過通路／GSI 銷售，中英文都符合", "gap": "職位明確是 Sales Hunter，要求 8 年以上 field sales 與資料中心架構知識", "level": "✅ 符合：要求 8 年以上的企業 AE", "url": "https://www.linkedin.com/jobs/view/4350121562/", "date": "2026-10-12", "status": ""}], "market": [{"id": "0", "skill": "開發新客戶（new logo／prospecting）", "mentions": 10, "have": "partial", "note": "幾乎每個 AE/BD 職缺都要求。準備 1～2 個「從零接觸到簽約」的故事，並練習講 outbound cadence。"}, {"id": "1", "skill": "通路／生態系合作（SI、ISV、經銷商、co-sell）", "mentions": 7, "have": "no", "note": "外商科技公司在台灣多半透過 SI／經銷商賣。建議了解 AWS／Microsoft 的 partner 計畫和 co-sell 模式，並整理過去跟 SI 或 POS／ERP 廠商合作的經驗。"}, {"id": "2", "skill": "顧問式／方案銷售（discovery、提案）", "mentions": 6, "have": "yes", "note": "強項：大量 demo、discovery、SOW 與方案設計。投遞時放最前面。"}, {"id": "3", "skill": "雲端／資料中心／IT 基礎架構知識", "mentions": 5, "have": "partial", "note": "懂 SaaS 和 API 整合，但不懂基礎架構。性價比最高的補法：考 AWS Certified Cloud Practitioner（約 1 個月）。"}, {"id": "4", "skill": "Salesforce 等 CRM 工具實際操作", "mentions": 5, "have": "partial", "note": "用過就寫進履歷技能欄；沒用過的話，Trailhead 免費課程一週能上手。"}, {"id": "5", "skill": "背業績、pipeline 管理與 forecast", "mentions": 5, "have": "partial", "note": "有團隊業績貢獻和續約率，但缺「個人 quota 達成率」這類數字，面試前準備好。"}, {"id": "6", "skill": "C-level／高層關係經營", "mentions": 4, "have": "partial", "note": "準備一個直接對品牌高層簡報或談判的例子。"}, {"id": "7", "skill": "半導體／製造／金融產業知識", "mentions": 4, "have": "no", "note": "台灣外商 IT 職缺常要求。優勢在零售／電商，建議優先鎖定零售客戶多的軟體公司，而不是硬補半導體。"}, {"id": "8", "skill": "AI 產品／AI 應用銷售", "mentions": 2, "have": "partial", "note": "有自己做 AI 自動化工具的經驗，業務裡很少見，AI 相關職缺可以主打這點。"}, {"id": "9", "skill": "中英粵三語", "mentions": 2, "have": "yes", "note": "香港和大中華區職缺的加分項，完全符合。"}], "meta": {"jds_read": 15, "since": "2026-10-12"}};
 db = { local: true };
 let saved = {}; try { saved = JSON.parse(localStorage.getItem("rl-status") || "{}"); } catch (e) {}
-jobs = DATA.jobs.map(j => ({ ...j, status: saved[j.id] || "" }));
-skills = DATA.market; meta = DATA.meta;
-renderList(); renderMarket();
+fetch("data.json?t=" + Date.now()).then(r => r.json()).then(DATA => {
+  jobs = DATA.jobs.map(j => ({ ...j, status: saved[j.id] ?? j.status ?? "" }));
+  skills = DATA.market; meta = DATA.meta;
+  if (meta && meta.updated) document.getElementById("synced").textContent = meta.updated;
+  renderList(); renderMarket();
+}).catch(() => {
+  document.getElementById("list").innerHTML = '<div class="empty">暫時讀不到資料，請稍後重新整理。</div>';
+});
 </script>
 
 </body></html>
