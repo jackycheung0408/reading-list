@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="robots" content="noindex,nofollow,noarchive">
+<style>*,*::before,*::after{box-sizing:border-box}body{margin:0}[hidden]{display:none!important}</style>
+<title>Reading List</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;700&display=swap">
+<style>
+/* Layout: one narrow column of job rows, sticky filter bar on top; fit score is the visual anchor of each row */
+:root {
+  --bg: #f5f6f4; --surface: #ffffff; --fg: #1d2421; --muted: #5f6b66; --line: #dde2df;
+  --accent: #1f6f5c; --accent-soft: #e2efea;
+  --hi: #1f6f5c; --mid: #a26b12; --lo: #8a8f8c;
+  --want: #1f6f5c; --skip: #8a8f8c;
+  --sans: "IBM Plex Sans", "Noto Sans TC", "PingFang TC", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #141917; --surface: #1c2220; --fg: #e6ebe8; --muted: #9aa6a1; --line: #2e3633;
+  --accent: #5cc4a6; --accent-soft: #1f322c; --hi: #5cc4a6; --mid: #e0a64a; --lo: #7d8783;
+  --want: #5cc4a6; --skip: #7d8783; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #141917; --surface: #1c2220; --fg: #e6ebe8; --muted: #9aa6a1; --line: #2e3633;
+  --accent: #5cc4a6; --accent-soft: #1f322c; --hi: #5cc4a6; --mid: #e0a64a; --lo: #7d8783;
+  --want: #5cc4a6; --skip: #7d8783; color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font-family: var(--sans); font-size: 15px; line-height: 1.55; }
+.wrap { max-width: 760px; margin: 0 auto; padding-inline: 16px; padding-block: 20px 48px; }
+header h1 { font-size: 1.35rem; font-weight: 700; margin: 0; text-wrap: balance; }
+header p { margin: 4px 0 0; color: var(--muted); font-size: .88rem; }
+.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 2; background: var(--bg);
+  padding-block: 12px; border-bottom: 1px solid var(--line); display: grid; gap: 8px; margin-top: 12px; }
+.row { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.row .lbl { font-size: .74rem; letter-spacing: .06em; color: var(--muted); width: 3.2em; }
+.chip { font: inherit; font-size: .84rem; border: 1px solid var(--line); background: var(--surface); color: var(--fg);
+  border-radius: 999px; padding: 3px 11px; cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--bg); }
+.chip:focus-visible, .act:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.count { font-size: .82rem; color: var(--muted); margin-left: auto; font-variant-numeric: tabular-nums; }
+.list { display: grid; gap: 10px; margin-top: 14px; }
+.job { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px;
+  display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 12px; }
+.job.skip { opacity: .55; }
+.fit { font-family: var(--mono); font-weight: 600; font-size: 1.35rem; font-variant-numeric: tabular-nums; line-height: 1; }
+.fit small { font-size: .7rem; }
+.meter { height: 4px; background: var(--line); border-radius: 2px; margin-top: 8px; overflow: hidden; }
+.meter i { display: block; height: 100%; background: currentColor; }
+.t-hi { color: var(--hi); } .t-mid { color: var(--mid); } .t-lo { color: var(--lo); }
+.body { min-width: 0; display: grid; gap: 6px; }
+.title { font-weight: 600; font-size: 1rem; color: var(--fg); text-decoration: none; overflow-wrap: anywhere; }
+.title:hover { text-decoration: underline; }
+.meta { font-size: .84rem; color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 10px; }
+.tag { font-size: .74rem; border: 1px solid var(--line); border-radius: 4px; padding: 0 6px; }
+.tag.new { background: var(--accent-soft); color: var(--accent); border-color: transparent; }
+dl { margin: 0; display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 2px 8px; font-size: .88rem; }
+dt { color: var(--muted); } dd { margin: 0; }
+.acts { display: flex; gap: 6px; flex-wrap: wrap; }
+.act { font: inherit; font-size: .82rem; border: 1px solid var(--line); background: transparent; color: var(--fg);
+  border-radius: 6px; padding: 3px 10px; cursor: pointer; }
+.act.on.want { background: var(--want); border-color: var(--want); color: var(--bg); }
+.act.on.skip { background: var(--skip); border-color: var(--skip); color: var(--bg); }
+.empty { text-align: center; color: var(--muted); padding: 40px 12px; border: 1px dashed var(--line); border-radius: 10px; }
+.tabs { display: flex; gap: 4px; margin-top: 14px; border-bottom: 1px solid var(--line); }
+.tab { font: inherit; font-weight: 500; background: none; border: 0; border-bottom: 2px solid transparent; color: var(--muted); padding: 6px 10px; cursor: pointer; }
+.tab[aria-selected="true"] { color: var(--fg); border-bottom-color: var(--accent); }
+.mk-intro { color: var(--muted); font-size: .88rem; margin: 14px 0 0; }
+.skill { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; display: grid; gap: 6px; }
+.skill-top { display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: baseline; }
+.skill-name { font-weight: 600; }
+.freq { font-family: var(--mono); font-size: .82rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.have { font-size: .74rem; border-radius: 4px; padding: 0 7px; margin-left: auto; border: 1px solid currentColor; }
+.have.yes { color: var(--hi); } .have.partial { color: var(--mid); } .have.no { color: #b4473a; }
+.bar2 { height: 6px; background: var(--line); border-radius: 3px; overflow: hidden; }
+.bar2 i { display: block; height: 100%; background: var(--muted); }
+.skill p { margin: 0; font-size: .88rem; }
+.note { font-size: .8rem; color: var(--mid); margin-top: 6px; }
+</style>
+</head><body>
+
+<div class="wrap">
+  <header>
+    <h1>Reading List</h1>
+    <p>（靜態副本，2026-10-12 更新；標記只存在你這台裝置的瀏覽器）每個平日早上自動掃描 LinkedIn，以台北、新竹及台灣 hybrid 職缺為主，只收符合度 50% 以上、職級與薪資符合資深階段、非新創、非台商的外商職缺；上海和香港只收特別好的機會。</p>
+  </header>
+  <div class="tabs" role="tablist">
+    <button class="tab" role="tab" id="tab-jobs" aria-selected="true">職缺池</button>
+    <button class="tab" role="tab" id="tab-market" aria-selected="false">市場缺口</button>
+  </div>
+  <section id="view-jobs">
+  <div class="bar">
+    <div class="row"><span class="lbl">狀態</span><span id="f-status"></span><span class="count" id="count"></span></div>
+    <div class="row"><span class="lbl">符合度</span><span id="f-fit"></span></div>
+    <div class="row"><span class="lbl">地點</span><span id="f-loc"></span></div>
+  </div>
+  <div class="note" id="note" hidden></div>
+  <div class="list" id="list">
+    <div class="empty">職缺載入中。每天排程跑完後，新的職缺會自動出現在這裡。</div>
+  </div>
+  </section>
+  <section id="view-market" hidden>
+    <p class="mk-intro" id="mk-intro">每天讀過的 JD 都會統計：市場最常要求什麼能力、你的履歷目前有沒有。紅色「缺」和黃色「部分」是最值得補的地方。</p>
+    <div class="list" id="mk-list"><div class="empty">市場資料載入中。</div></div>
+  </section>
+</div>
+
+<script>
+const STATUS = [["todo","待決定"],["want","想投"],["skip","略過"],["all","全部"]];
+const FITS = [["0","全部"],["60","60%+"],["70","70%+"]];
+const LOCS = [["all","全部"],["台北","台北"],["新竹","新竹"],["台灣","台灣其他"],["香港","香港"],["上海","上海"]];
+const state = { status: "todo", fit: "0", loc: "all" };
+try { Object.assign(state, JSON.parse(localStorage.getItem("jobboard-filters") || "{}")); } catch (e) {}
+let jobs = [], db = null;
+
+function chips(id, opts, key) {
+  const el = document.getElementById(id); el.innerHTML = "";
+  el.className = "row";
+  for (const [v, label] of opts) {
+    const b = document.createElement("button");
+    b.className = "chip"; b.textContent = label; b.setAttribute("aria-pressed", state[key] === v);
+    b.onclick = () => { state[key] = v; try { localStorage.setItem("jobboard-filters", JSON.stringify(state)); } catch (e) {} renderAll(); };
+    el.appendChild(b);
+  }
+}
+function locKey(l) { for (const k of ["台北","新竹","香港","上海","台灣"]) if ((l||"").includes(k)) return k; return "台灣"; }
+function tone(f) { return f >= 70 ? "t-hi" : f >= 60 ? "t-mid" : "t-lo"; }
+function latestDate() { return jobs.reduce((m, j) => (j.date > m ? j.date : m), ""); }
+
+function visible() {
+  return jobs.filter(j => {
+    const s = j.status || "todo";
+    if (state.status !== "all" && s !== state.status) return false;
+    if ((j.fit || 0) < +state.fit) return false;
+    if (state.loc !== "all" && locKey(j.location) !== state.loc) return false;
+    return true;
+  }).sort((a, b) => (b.fit - a.fit) || (b.date || "").localeCompare(a.date || ""));
+}
+
+async function setStatus(j, s) {
+  j.status = j.status === s ? "" : s;
+  try { const m = JSON.parse(localStorage.getItem("rl-status") || "{}"); m[j.id] = j.status; localStorage.setItem("rl-status", JSON.stringify(m)); } catch (e) {}
+  renderList();
+}
+
+function renderList() {
+  const list = document.getElementById("list"); list.innerHTML = "";
+  const v = visible(), newest = latestDate();
+  document.getElementById("count").textContent = v.length + " / " + jobs.length + " 筆";
+  if (!v.length) {
+    const d = document.createElement("div"); d.className = "empty";
+    d.textContent = jobs.length ? "這個篩選條件下沒有職缺。" : "還沒有職缺。每個平日早上排程跑完後，新的職缺會自動出現在這裡。";
+    list.appendChild(d); return;
+  }
+  for (const j of v) {
+    const art = document.createElement("article");
+    art.className = "job" + (j.status === "skip" ? " skip" : "");
+    const fit = document.createElement("div"); fit.className = tone(j.fit);
+    fit.innerHTML = '<div class="fit"></div><div class="meter"><i></i></div>';
+    fit.querySelector(".fit").innerHTML = (j.fit|0) + "<small>%</small>";
+    fit.querySelector("i").style.width = Math.max(0, Math.min(100, j.fit)) + "%";
+    const body = document.createElement("div"); body.className = "body";
+    const a = document.createElement("a"); a.className = "title"; a.href = j.url; a.target = "_blank"; a.rel = "noopener"; a.textContent = j.title;
+    const meta = document.createElement("div"); meta.className = "meta";
+    for (const [txt, cls] of [[j.company], [j.location], [j.workplace || "未註明", "tag"], [(j.date||"").slice(5).replace("-","/") + " 新增", j.date === newest ? "tag new" : "tag"]]) {
+      const s = document.createElement("span"); s.textContent = txt; if (cls) s.className = cls; meta.appendChild(s);
+    }
+    const dl = document.createElement("dl");
+    for (const [k, val] of [["適合", j.why], ["缺口", j.gap], ["職級", j.level], ["薪資", j.pay]]) {
+      if (!val && (k === "職級" || k === "薪資")) continue;
+      const dt = document.createElement("dt"); dt.textContent = k; const dd = document.createElement("dd"); dd.textContent = val || "—";
+      dl.append(dt, dd);
+    }
+    const acts = document.createElement("div"); acts.className = "acts";
+    for (const [s, label] of [["want","想投"],["skip","略過"]]) {
+      const b = document.createElement("button"); b.className = "act " + s + (j.status === s ? " on" : "");
+      b.textContent = j.status === s ? "✓ " + label : label; b.setAttribute("aria-pressed", j.status === s);
+      b.onclick = () => setStatus(j, s); b.disabled = !db; acts.appendChild(b);
+    }
+    body.append(a, meta, dl, acts);
+    art.append(fit, body); list.appendChild(art);
+  }
+}
+function renderAll() {
+  chips("f-status", STATUS, "status"); chips("f-fit", FITS, "fit"); chips("f-loc", LOCS, "loc"); renderList();
+}
+renderAll();
+
+let skills = [], meta = null;
+const HAVE = { yes: "已具備", partial: "部分", no: "缺" };
+function renderMarket() {
+  const list = document.getElementById("mk-list"); list.innerHTML = "";
+  if (meta) document.getElementById("mk-intro").textContent =
+    "從 " + (meta.since || "") + " 起共讀了 " + (meta.jds_read || 0) + " 份 JD。以下是市場最常要求的能力，跟你的履歷比對。紅色「缺」和黃色「部分」最值得補。";
+  if (!skills.length) { list.innerHTML = '<div class="empty">還沒有市場資料。每天排程讀完 JD 後會自動更新。</div>'; return; }
+  const max = Math.max(...skills.map(k => k.mentions || 0), 1);
+  const order = { no: 0, partial: 1, yes: 2 };
+  skills.slice().sort((a, b) => (b.mentions - a.mentions) || (order[a.have] - order[b.have])).forEach(k => {
+    const el = document.createElement("div"); el.className = "skill";
+    const top = document.createElement("div"); top.className = "skill-top";
+    const n = document.createElement("span"); n.className = "skill-name"; n.textContent = k.skill;
+    const f = document.createElement("span"); f.className = "freq"; f.textContent = (k.mentions || 0) + " 份 JD 提到";
+    const h = document.createElement("span"); h.className = "have " + (k.have || "no"); h.textContent = HAVE[k.have] || "缺";
+    top.append(n, f, h);
+    const b = document.createElement("div"); b.className = "bar2"; b.innerHTML = "<i></i>";
+    b.firstChild.style.width = Math.round(100 * (k.mentions || 0) / max) + "%";
+    const p = document.createElement("p"); p.textContent = k.note || "";
+    el.append(top, b, p); list.appendChild(el);
+  });
+}
+function showTab(which) {
+  document.getElementById("view-jobs").hidden = which !== "jobs";
+  document.getElementById("view-market").hidden = which !== "market";
+  document.getElementById("tab-jobs").setAttribute("aria-selected", which === "jobs");
+  document.getElementById("tab-market").setAttribute("aria-selected", which === "market");
+  try { localStorage.setItem("jobboard-tab", which); } catch (e) {}
+}
+document.getElementById("tab-jobs").onclick = () => showTab("jobs");
+document.getElementById("tab-market").onclick = () => showTab("market");
+try { if (localStorage.getItem("jobboard-tab") === "market") showTab("market"); } catch (e) {}
+
+const DATA = {"jobs": [{"id": "4477269114", "fit": 68, "title": "Business Development Lead, yuu Rewards Hongkong", "company": "DFI Retail Group", "location": "香港", "workplace": "未註明", "why": "零售會員點數／CRM／全通路，要求中英粵三語，對應零售品牌、CRM 遷移和香港上線經驗（香港例外收錄：產業高度吻合）", "gap": "要求合作夥伴開發實績、帶團隊經驗和港澳零售人脈", "level": "✅ 符合（略高）：Lead 職，要帶 BD 小團隊", "url": "https://www.linkedin.com/jobs/view/4477269114/", "date": "2026-10-12", "status": ""}, {"id": "4350121562", "fit": 52, "title": "Account Executive, Taiwan", "company": "Everpure（原 Pure Storage）", "location": "台北", "workplace": "未註明", "why": "美商上市公司的企業級科技 AE，透過通路／GSI 銷售，中英文都符合", "gap": "職位明確是 Sales Hunter，要求 8 年以上 field sales 與資料中心架構知識", "level": "✅ 符合：要求 8 年以上的企業 AE", "url": "https://www.linkedin.com/jobs/view/4350121562/", "date": "2026-10-12", "status": ""}], "market": [{"id": "0", "skill": "開發新客戶（new logo／prospecting）", "mentions": 10, "have": "partial", "note": "幾乎每個 AE/BD 職缺都要求。準備 1～2 個「從零接觸到簽約」的故事，並練習講 outbound cadence。"}, {"id": "1", "skill": "通路／生態系合作（SI、ISV、經銷商、co-sell）", "mentions": 7, "have": "no", "note": "外商科技公司在台灣多半透過 SI／經銷商賣。建議了解 AWS／Microsoft 的 partner 計畫和 co-sell 模式，並整理過去跟 SI 或 POS／ERP 廠商合作的經驗。"}, {"id": "2", "skill": "顧問式／方案銷售（discovery、提案）", "mentions": 6, "have": "yes", "note": "強項：大量 demo、discovery、SOW 與方案設計。投遞時放最前面。"}, {"id": "3", "skill": "雲端／資料中心／IT 基礎架構知識", "mentions": 5, "have": "partial", "note": "懂 SaaS 和 API 整合，但不懂基礎架構。性價比最高的補法：考 AWS Certified Cloud Practitioner（約 1 個月）。"}, {"id": "4", "skill": "Salesforce 等 CRM 工具實際操作", "mentions": 5, "have": "partial", "note": "用過就寫進履歷技能欄；沒用過的話，Trailhead 免費課程一週能上手。"}, {"id": "5", "skill": "背業績、pipeline 管理與 forecast", "mentions": 5, "have": "partial", "note": "有團隊業績貢獻和續約率，但缺「個人 quota 達成率」這類數字，面試前準備好。"}, {"id": "6", "skill": "C-level／高層關係經營", "mentions": 4, "have": "partial", "note": "準備一個直接對品牌高層簡報或談判的例子。"}, {"id": "7", "skill": "半導體／製造／金融產業知識", "mentions": 4, "have": "no", "note": "台灣外商 IT 職缺常要求。優勢在零售／電商，建議優先鎖定零售客戶多的軟體公司，而不是硬補半導體。"}, {"id": "8", "skill": "AI 產品／AI 應用銷售", "mentions": 2, "have": "partial", "note": "有自己做 AI 自動化工具的經驗，業務裡很少見，AI 相關職缺可以主打這點。"}, {"id": "9", "skill": "中英粵三語", "mentions": 2, "have": "yes", "note": "香港和大中華區職缺的加分項，完全符合。"}], "meta": {"jds_read": 15, "since": "2026-10-12"}};
+db = { local: true };
+let saved = {}; try { saved = JSON.parse(localStorage.getItem("rl-status") || "{}"); } catch (e) {}
+jobs = DATA.jobs.map(j => ({ ...j, status: saved[j.id] || "" }));
+skills = DATA.market; meta = DATA.meta;
+renderList(); renderMarket();
+</script>
+
+</body></html>
