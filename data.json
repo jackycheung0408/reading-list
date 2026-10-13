@@ -29,64 +29,93 @@
    "why": "零售會員點數／CRM／全通路，要求中英粵三語，正對應你在 目前公司 的零售品牌、CRM 遷移和香港上線經驗（香港例外收錄：產業高度吻合）",
    "workplace": "未註明",
    "id": "4477269114"
+  },
+  {
+   "company": "NielsenIQ",
+   "date": "2026-10-13",
+   "fit": 55,
+   "gap": "重點在開發新客戶並要自建團隊，要求 8 年銷售實績與市場數據應用，你缺個人 hunting 數字與 NIQ 零售量測數據經驗",
+   "level": "✅ 符合（Mid-Senior，要求 8 年；但含帶團隊，略偏高）",
+   "location": "新北",
+   "pay": "預估 base （金額略）（外商 Mid-Senior 經理職），未註明",
+   "status": "",
+   "title": "Senior Sales Manager, Business Development (CPS)",
+   "url": "https://www.linkedin.com/jobs/view/4477525745/",
+   "why": "賣零售數據／消費者洞察給品牌，明確接受 B2B/SaaS 顧問式銷售背景；你熟悉零售品牌客戶與 discovery 提案",
+   "workplace": "未註明",
+   "id": "4477525745"
   }
  ],
  "market": [
   {
    "have": "partial",
-   "mentions": 2,
-   "note": "你做過 10 個 Claude 自動化工具，這在業務裡很少見。AI 相關職缺可以主打這點。",
+   "mentions": 5,
+   "note": "你做過 10 個 Claude 自動化工具，這在業務裡很少見。AI 相關職缺可以主打這點。BytePlus 等 AI/MaaS 職缺要的是「賣 AI 產品的成交經驗」，面試時把自建 AI 工具連結到「理解客戶 AI 導入痛點」來講。",
    "skill": "AI 產品／AI 應用銷售",
    "id": "ai-selling"
   },
   {
    "have": "partial",
-   "mentions": 4,
+   "mentions": 7,
    "note": "準備一個你直接對品牌高層簡報或談判的例子（例如 （金額略） 等級的案子）。",
    "skill": "C-level／高層關係經營",
    "id": "c-level"
   },
   {
    "have": "no",
-   "mentions": 7,
+   "mentions": 12,
    "note": "外商科技公司在台灣多半透過 SI／經銷商賣。建議了解 AWS／Microsoft 的 partner 計畫和 co-sell 模式；目前公司 若有跟 SI 或 POS／ERP 廠商合作的案子，可以整理成合作夥伴經驗。",
    "skill": "通路／生態系合作（SI、ISV、經銷商、co-sell）",
    "id": "channel-partner"
   },
   {
    "have": "partial",
-   "mentions": 5,
+   "mentions": 10,
    "note": "你懂 SaaS 和 API 整合，但不懂基礎架構。性價比最高的補法：考 AWS Certified Cloud Practitioner（約 1 個月），履歷上就有明確證照可放。",
    "skill": "雲端／資料中心／IT 基礎架構知識",
    "id": "cloud-infra"
   },
   {
    "have": "partial",
-   "mentions": 5,
+   "mentions": 7,
    "note": "履歷有 CRM 遷移，但沒寫自己用 Salesforce 管 pipeline。若有用過，履歷技能欄補上；沒有的話，Trailhead 免費課程一週就能上手。",
    "skill": "Salesforce 等 CRM 工具實際操作",
    "id": "crm-salesforce"
   },
   {
    "have": "partial",
-   "mentions": 10,
+   "mentions": 19,
    "note": "幾乎每個 AE/BD 職缺都要求。你有成交實績，但多數是業務帶進來的案子。面試時準備 1–2 個「從零接觸到簽約」的故事（例如 前公司 的 B2B 轉換、前公司 直銷），並練習講 outbound cadence。",
    "skill": "開發新客戶（new logo／prospecting）",
    "id": "new-logo-hunting"
   },
   {
    "have": "partial",
-   "mentions": 5,
+   "mentions": 11,
    "note": "你有貢獻金額（（金額略））和續約率，但沒有「個人 quota 達成率」這種數字。面試前準備好 前公司 時期的個人目標達成數字。",
    "skill": "背業績、pipeline 管理與 forecast",
    "id": "quota-forecast"
   },
   {
+   "have": "no",
+   "mentions": 2,
+   "note": "外商雲端／軟體公司常把 MEDDIC 當共同語言。花一個週末讀懂 MEDDICC，把 目前公司 一個 （金額略） 案子用 MEDDICC 框架重講一次，面試時直接用。",
+   "skill": "銷售方法論（MEDDIC／Challenger／SPIN）",
+   "id": "sales-methodology"
+  },
+  {
    "have": "yes",
-   "mentions": 6,
+   "mentions": 12,
    "note": "你的強項：70+ demo、30+ discovery、SOW 和方案設計。投遞時放在最前面。",
    "skill": "顧問式／方案銷售（discovery、提案）",
    "id": "solution-selling"
+  },
+  {
+   "have": "partial",
+   "mentions": 3,
+   "note": "你在 前公司 帶過 2 位 AM，規模小。投 Manager/Lead 職缺時講清楚你怎麼設定目標、做 coaching、維持 95% SLA；Head/Director 級職缺先不追。",
+   "skill": "帶領／建立業務團隊",
+   "id": "team-leadership"
   },
   {
    "have": "yes",
@@ -97,15 +126,15 @@
   },
   {
    "have": "no",
-   "mentions": 4,
+   "mentions": 6,
    "note": "台灣外商 IT 職缺常要求這些產業。你的優勢在零售／電商，建議優先鎖定零售、消費品牌客戶多的軟體公司，而不是硬補半導體。",
    "skill": "半導體／製造／金融產業知識",
    "id": "vertical-semi-mfg-fin"
   }
  ],
  "meta": {
-  "jds_read": 15,
+  "jds_read": 28,
   "since": "2026-10-12",
-  "updated": "2026-10-12"
+  "updated": "2026-10-13"
  }
 }
