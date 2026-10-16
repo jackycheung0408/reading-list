@@ -239,61 +239,91 @@
    "why": "MarTech SaaS（媒體監測／社群聆聽）企業銷售，流程包含 demo、提案、議價、成交後持續經營帳戶並 upsell，對得上你 目前公司 的 demo／提案和 前公司 的帳戶擴充經驗",
    "workplace": "Hybrid",
    "id": "4478489024"
+  },
+  {
+   "company": "Meltwater",
+   "date": "2026-10-16",
+   "fit": 66,
+   "gap": "要穩定超標的業績紀錄，你的成交是 presales 主導、不是自己背 quota；要自己做 outbound 開發新客戶，缺個人 new-logo 實績",
+   "level": "✅ 符合（要求 5–10 年企業 SaaS 銷售）",
+   "location": "上海",
+   "pay": "預估 base （金額略）（約 （金額略），未註明）",
+   "status": "",
+   "title": "Enterprise Sales",
+   "url": "https://www.linkedin.com/jobs/view/4478875155/",
+   "why": "MarTech SaaS 企業銷售：demo、提案、議價、成交後經營帳戶並 upsell，對得上 目前公司 demo／提案和 前公司 擴充經驗（和昨天上海那筆幾乎相同，可能是重新刊登）",
+   "workplace": "未註明",
+   "id": "4478875155"
+  },
+  {
+   "company": "Akamai Technologies",
+   "date": "2026-10-16",
+   "fit": 58,
+   "gap": "要有賣資安或雲端的經驗，你沒有；要穩定超標的企業級 quota 紀錄，你的成交是 presales 主導；缺個人開發新客戶實績",
+   "level": "✅ 符合（Senior IC，既有大客戶＋新客戶）",
+   "location": "台北",
+   "pay": "預估 base （金額略）（未註明）",
+   "status": "",
+   "title": "Senior Major Account Executive",
+   "url": "https://www.linkedin.com/jobs/view/4479802024/",
+   "why": "一半經營既有客戶 upsell／cross-sell、一半開發新客戶，正是你想要的比例；和 SE、通路夥伴一起做顧問式銷售，對得上 目前公司 技術主導經驗",
+   "workplace": "未註明",
+   "id": "4479802024"
   }
  ],
  "market": [
   {
    "have": "partial",
-   "mentions": 20,
+   "mentions": 24,
    "note": "你做過 10 個 Claude 自動化工具，這在業務裡很少見。AI 相關職缺可以主打這點。BytePlus 等 AI/MaaS 職缺要的是「賣 AI 產品的成交經驗」，面試時把自建 AI 工具連結到「理解客戶 AI 導入痛點」來講。",
    "skill": "AI 產品／AI 應用銷售",
    "id": "ai-selling"
   },
   {
    "have": "partial",
-   "mentions": 34,
+   "mentions": 40,
    "note": "準備一個你直接對品牌高層簡報或談判的例子（例如 （金額略） 等級的案子）。",
    "skill": "C-level／高層關係經營",
    "id": "c-level"
   },
   {
    "have": "no",
-   "mentions": 29,
+   "mentions": 37,
    "note": "外商科技公司在台灣多半透過 SI／經銷商賣。建議了解 AWS／Microsoft 的 partner 計畫和 co-sell 模式；目前公司 若有跟 SI 或 POS／ERP 廠商合作的案子，可以整理成合作夥伴經驗。",
    "skill": "通路／生態系合作（SI、ISV、經銷商、co-sell）",
    "id": "channel-partner"
   },
   {
    "have": "partial",
-   "mentions": 25,
+   "mentions": 33,
    "note": "你懂 SaaS 和 API 整合，但不懂基礎架構。性價比最高的補法是考 AWS Certified Cloud Practitioner 或 Microsoft AZ-900（約 1 個月），履歷上就有證照可放；Microsoft CSAM 這類職缺會直接列 Azure 證照為加分。",
    "skill": "雲端／資料中心／IT 基礎架構知識",
    "id": "cloud-infra"
   },
   {
    "have": "partial",
-   "mentions": 15,
+   "mentions": 17,
    "note": "履歷有 CRM 遷移，但沒寫自己用 Salesforce 管 pipeline。若有用過，履歷技能欄補上；沒有的話，Trailhead 免費課程一週就能上手。",
    "skill": "Salesforce 等 CRM 工具實際操作",
    "id": "crm-salesforce"
   },
   {
    "have": "no",
-   "mentions": 8,
+   "mentions": 10,
    "note": "台灣外商軟體 AE 職缺很大一塊是資安（Zscaler、Akamai、Palo Alto、Check Point）。不必硬補，但若想打開這塊市場，可先讀 Zscaler／Cloudflare 的 Zero Trust 入門課程，面試能講出基本概念即可。",
    "skill": "資安產品知識（Zero Trust、SASE、WAF）",
    "id": "cybersecurity"
   },
   {
    "have": "partial",
-   "mentions": 3,
+   "mentions": 5,
    "note": "你在 前公司 用數據找出交叉銷售機會，也用 Google Apps Script 做自動化，可以當作證據。面試前準備一個「用數據找到成長機會」的具體案例，講清楚用了哪些指標和工具。",
    "skill": "數據分析與報表（Excel 樞紐、BI、成效分析）",
    "id": "data-analytics"
   },
   {
    "have": "no",
-   "mentions": 6,
+   "mentions": 7,
    "note": "Uber、Yahoo、Google、Smartly 的廣告類職缺都要求數位廣告銷售背景。你可以從 目前公司 協助品牌做 OMO 會員經營與導流的經驗切入，但純廣告業務職缺不建議優先投。",
    "skill": "數位廣告／AdTech 銷售經驗",
    "id": "digital-ads"
@@ -301,27 +331,34 @@
   {
    "have": "partial",
    "mentions": 2,
+   "note": "Moka 香港等新進市場的 AE 會要你「自帶」在地企業客戶名單。你有 目前公司 的 20+ 品牌（含香港跨境案）和 前公司 的 DHL、YouBike 等關係，面試時整理一份「可以重新聯繫的決策者清單」（只列產業與職級，不洩漏機密），證明你帶得來人脈。",
+   "skill": "既有在地客戶／夥伴人脈",
+   "id": "local-network"
+  },
+  {
+   "have": "partial",
+   "mentions": 3,
    "note": "你在 目前公司 做 OMO、會員 CRM 遷移，在 前公司 做 CRM SaaS，其實就是 MarTech／CX 範疇。投 Adobe、Meltwater 這類職缺時，履歷要直接用「MarTech／CX」這個詞包裝，並補一兩句 CDP、行銷自動化的基本概念。",
    "skill": "MarTech／CX 平台知識（Adobe Experience Cloud、媒體監測等）",
    "id": "martech-cx"
   },
   {
    "have": "partial",
-   "mentions": 43,
+   "mentions": 52,
    "note": "幾乎每個 AE/BD 職缺都要求。你有成交實績，但多數是業務帶進來的案子。面試時準備 1–2 個「從零接觸到簽約」的故事（例如 前公司 的 B2B 轉換、前公司 直銷），並練習講 outbound cadence。",
    "skill": "開發新客戶（new logo／prospecting）",
    "id": "new-logo-hunting"
   },
   {
    "have": "partial",
-   "mentions": 41,
+   "mentions": 50,
    "note": "你有貢獻金額（（金額略））和續約率，但沒有「個人 quota 達成率」這種數字。面試前準備好 前公司 時期的個人目標達成數字。",
    "skill": "背業績、pipeline 管理與 forecast",
    "id": "quota-forecast"
   },
   {
    "have": "yes",
-   "mentions": 10,
+   "mentions": 15,
    "note": "CSM／AM 職缺（Illumio、Microsoft、Kpler、SAP）都要求你自己 forecast 續約、找擴充機會。你有 前公司 100% 續約、25% 擴充成長、前公司 流失率 30%→12% 的數字，投 CSM 職缺時把這三個數字放在履歷最前面。",
    "skill": "續約、擴充與 NRR 經營",
    "id": "renewal-expansion"
@@ -335,36 +372,36 @@
   },
   {
    "have": "yes",
-   "mentions": 32,
+   "mentions": 39,
    "note": "你的強項：70+ demo、30+ discovery、SOW 和方案設計。投遞時放在最前面。",
    "skill": "顧問式／方案銷售（discovery、提案）",
    "id": "solution-selling"
   },
   {
    "have": "partial",
-   "mentions": 7,
+   "mentions": 10,
    "note": "你在 前公司 帶過 2 位 AM，規模小。投 Manager/Lead 職缺時講清楚你怎麼設定目標、做 coaching、維持 95% SLA；Head/Director 級職缺先不追。",
    "skill": "帶領／建立業務團隊",
    "id": "team-leadership"
   },
   {
    "have": "yes",
-   "mentions": 3,
+   "mentions": 4,
    "note": "香港和大中華區職缺的加分項，你完全符合。",
    "skill": "中英粵三語",
    "id": "trilingual"
   },
   {
    "have": "no",
-   "mentions": 16,
+   "mentions": 18,
    "note": "台灣外商 IT 職缺常要求這些產業。你的優勢在零售／電商，建議優先鎖定零售、消費品牌客戶多的軟體公司，而不是硬補半導體。",
    "skill": "半導體／製造／金融產業知識",
    "id": "vertical-semi-mfg-fin"
   }
  ],
  "meta": {
-  "jds_read": 73,
+  "jds_read": 88,
   "since": "2026-10-12",
-  "updated": "2026-10-15"
+  "updated": "2026-10-16"
  }
 }
