@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="robots" content="noindex,nofollow,noarchive">
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="robots" content="noindex,nofollow,noarchive">
 <style>*,*::before,*::after{box-sizing:border-box}body{margin:0}[hidden]{display:none!important}</style>
 <title>Reading List</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,7 +29,7 @@ header p { margin: 4px 0 0; color: var(--muted); font-size: .88rem; }
 .bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 2; background: var(--bg);
   padding-block: 12px; border-bottom: 1px solid var(--line); display: grid; gap: 8px; margin-top: 12px; }
 .row { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
-.row .lbl { font-size: .74rem; letter-spacing: .06em; color: var(--muted); width: 3.2em; }
+.row .lbl { font-size: .74rem; letter-spacing: .06em; color: var(--muted); width: 4.6em; }
 .chip { font: inherit; font-size: .84rem; border: 1px solid var(--line); background: var(--surface); color: var(--fg);
   border-radius: 999px; padding: 3px 11px; cursor: pointer; }
 .chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--bg); }
@@ -78,33 +78,33 @@ dt { color: var(--muted); } dd { margin: 0; }
 <div class="wrap">
   <header>
     <h1>Reading List</h1>
-    <p>（每天自動同步，最後更新 <span id="synced">—</span>；在這裡改的標記只存在這台裝置的瀏覽器）每個平日早上自動掃描 LinkedIn，以台北、新竹及台灣 hybrid 職缺為主，只收符合度 50% 以上、職級與薪資符合資深階段、非新創、非台商的外商職缺；上海和香港只收特別好的機會。</p>
+    <p>(Synced daily, last update <span id="synced">—</span>; marks made here stay in this browser only) Weekday LinkedIn scan focused on Taipei, Hsinchu and Taiwan hybrid roles: fit 50%+, senior level and pay, foreign companies only (no startups or Taiwanese firms). Shanghai and Hong Kong only for standout roles.</p>
   </header>
   <div class="tabs" role="tablist">
-    <button class="tab" role="tab" id="tab-jobs" aria-selected="true">職缺池</button>
-    <button class="tab" role="tab" id="tab-market" aria-selected="false">市場缺口</button>
+    <button class="tab" role="tab" id="tab-jobs" aria-selected="true">Jobs</button>
+    <button class="tab" role="tab" id="tab-market" aria-selected="false">Market gaps</button>
   </div>
   <section id="view-jobs">
   <div class="bar">
-    <div class="row"><span class="lbl">狀態</span><span id="f-status"></span><span class="count" id="count"></span></div>
-    <div class="row"><span class="lbl">符合度</span><span id="f-fit"></span></div>
-    <div class="row"><span class="lbl">地點</span><span id="f-loc"></span></div>
+    <div class="row"><span class="lbl">Status</span><span id="f-status"></span><span class="count" id="count"></span></div>
+    <div class="row"><span class="lbl">Fit</span><span id="f-fit"></span></div>
+    <div class="row"><span class="lbl">Location</span><span id="f-loc"></span></div>
   </div>
   <div class="note" id="note" hidden></div>
   <div class="list" id="list">
-    <div class="empty">職缺載入中。每天排程跑完後，新的職缺會自動出現在這裡。</div>
+    <div class="empty">Loading jobs. New jobs appear here after each daily scan.</div>
   </div>
   </section>
   <section id="view-market" hidden>
-    <p class="mk-intro" id="mk-intro">每天讀過的 JD 都會統計：市場最常要求什麼能力、你的履歷目前有沒有。紅色「缺」和黃色「部分」是最值得補的地方。</p>
-    <div class="list" id="mk-list"><div class="empty">市場資料載入中。</div></div>
+    <p class="mk-intro" id="mk-intro">Every JD read is tallied: what the market asks for most and whether your resume has it. Red "Missing" and amber "Partial" are the gaps worth closing.</p>
+    <div class="list" id="mk-list"><div class="empty">Loading market data.</div></div>
   </section>
 </div>
 
 <script>
-const STATUS = [["todo","待決定"],["want","想投"],["skip","略過"],["all","全部"]];
-const FITS = [["0","全部"],["60","60%+"],["70","70%+"]];
-const LOCS = [["all","全部"],["台北","台北"],["新竹","新竹"],["台灣","台灣其他"],["香港","香港"],["上海","上海"]];
+const STATUS = [["todo","To review"],["want","Apply"],["skip","Skip"],["all","All"]];
+const FITS = [["0","All"],["60","60%+"],["70","70%+"]];
+const LOCS = [["all","All"],["台北","Taipei"],["新竹","Hsinchu"],["台灣","Other Taiwan"],["香港","Hong Kong"],["上海","Shanghai"]];
 const state = { status: "todo", fit: "0", loc: "all" };
 try { Object.assign(state, JSON.parse(localStorage.getItem("jobboard-filters") || "{}")); } catch (e) {}
 let jobs = [], db = null;
@@ -142,10 +142,10 @@ async function setStatus(j, s) {
 function renderList() {
   const list = document.getElementById("list"); list.innerHTML = "";
   const v = visible(), newest = latestDate();
-  document.getElementById("count").textContent = v.length + " / " + jobs.length + " 筆";
+  document.getElementById("count").textContent = v.length + " / " + jobs.length + "";
   if (!v.length) {
     const d = document.createElement("div"); d.className = "empty";
-    d.textContent = jobs.length ? "這個篩選條件下沒有職缺。" : "還沒有職缺。每個平日早上排程跑完後，新的職缺會自動出現在這裡。";
+    d.textContent = jobs.length ? "No jobs match these filters." : "No jobs yet. New jobs appear here after each weekday morning scan.";
     list.appendChild(d); return;
   }
   for (const j of v) {
@@ -158,17 +158,17 @@ function renderList() {
     const body = document.createElement("div"); body.className = "body";
     const a = document.createElement("a"); a.className = "title"; a.href = j.url; a.target = "_blank"; a.rel = "noopener"; a.textContent = j.title;
     const meta = document.createElement("div"); meta.className = "meta";
-    for (const [txt, cls] of [[j.company], [j.location], [j.workplace || "未註明", "tag"], [(j.date||"").slice(5).replace("-","/") + " 新增", j.date === newest ? "tag new" : "tag"]]) {
+    for (const [txt, cls] of [[j.company], [j.location], [j.workplace || "未註明", "tag"], [(j.date||"").slice(5).replace("-","/") + " added", j.date === newest ? "tag new" : "tag"]]) {
       const s = document.createElement("span"); s.textContent = txt; if (cls) s.className = cls; meta.appendChild(s);
     }
     const dl = document.createElement("dl");
-    for (const [k, val] of [["適合", j.why], ["缺口", j.gap], ["職級", j.level], ["薪資", j.pay]]) {
-      if (!val && (k === "職級" || k === "薪資")) continue;
+    for (const [k, val] of [["Why", j.why], ["Gap", j.gap], ["Level", j.level], ["Pay", j.pay]]) {
+      if (!val && (k === "Level" || k === "Pay")) continue;
       const dt = document.createElement("dt"); dt.textContent = k; const dd = document.createElement("dd"); dd.textContent = val || "—";
       dl.append(dt, dd);
     }
     const acts = document.createElement("div"); acts.className = "acts";
-    for (const [s, label] of [["want","想投"],["skip","略過"]]) {
+    for (const [s, label] of [["want","Apply"],["skip","Skip"]]) {
       const b = document.createElement("button"); b.className = "act " + s + (j.status === s ? " on" : "");
       b.textContent = j.status === s ? "✓ " + label : label; b.setAttribute("aria-pressed", j.status === s);
       b.onclick = () => setStatus(j, s); b.disabled = !db; acts.appendChild(b);
@@ -183,20 +183,20 @@ function renderAll() {
 renderAll();
 
 let skills = [], meta = null;
-const HAVE = { yes: "已具備", partial: "部分", no: "缺" };
+const HAVE = { yes: "Have", partial: "Partial", no: "Missing" };
 function renderMarket() {
   const list = document.getElementById("mk-list"); list.innerHTML = "";
   if (meta) document.getElementById("mk-intro").textContent =
-    "從 " + (meta.since || "") + " 起共讀了 " + (meta.jds_read || 0) + " 份 JD。以下是市場最常要求的能力，跟你的履歷比對。紅色「缺」和黃色「部分」最值得補。";
-  if (!skills.length) { list.innerHTML = '<div class="empty">還沒有市場資料。每天排程讀完 JD 後會自動更新。</div>'; return; }
+    (meta.jds_read || 0) + " JDs read since " + (meta.since || "") + ". The skills the market asks for most, checked against your resume. Red \"Missing\" and amber \"Partial\" are the gaps worth closing.";
+  if (!skills.length) { list.innerHTML = '<div class="empty">No market data yet. It updates after each daily scan.</div>'; return; }
   const max = Math.max(...skills.map(k => k.mentions || 0), 1);
   const order = { no: 0, partial: 1, yes: 2 };
   skills.slice().sort((a, b) => (b.mentions - a.mentions) || (order[a.have] - order[b.have])).forEach(k => {
     const el = document.createElement("div"); el.className = "skill";
     const top = document.createElement("div"); top.className = "skill-top";
     const n = document.createElement("span"); n.className = "skill-name"; n.textContent = k.skill;
-    const f = document.createElement("span"); f.className = "freq"; f.textContent = (k.mentions || 0) + " 份 JD 提到";
-    const h = document.createElement("span"); h.className = "have " + (k.have || "no"); h.textContent = HAVE[k.have] || "缺";
+    const f = document.createElement("span"); f.className = "freq"; f.textContent = (k.mentions || 0) + " JDs mention";
+    const h = document.createElement("span"); h.className = "have " + (k.have || "no"); h.textContent = HAVE[k.have] || "Missing";
     top.append(n, f, h);
     const b = document.createElement("div"); b.className = "bar2"; b.innerHTML = "<i></i>";
     b.firstChild.style.width = Math.round(100 * (k.mentions || 0) / max) + "%";
@@ -223,7 +223,7 @@ fetch("data.json?t=" + Date.now()).then(r => r.json()).then(DATA => {
   if (meta && meta.updated) document.getElementById("synced").textContent = meta.updated;
   renderList(); renderMarket();
 }).catch(() => {
-  document.getElementById("list").innerHTML = '<div class="empty">暫時讀不到資料，請稍後重新整理。</div>';
+  document.getElementById("list").innerHTML = '<div class="empty">Could not load data. Refresh in a moment.</div>';
 });
 </script>
 
