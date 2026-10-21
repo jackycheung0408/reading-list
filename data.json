@@ -128,7 +128,7 @@
    "level": "✅ 符合（Senior AE；LinkedIn 標 Associate，但要求連年超額達成業績）",
    "location": "香港",
    "pay": "預估 base （金額略）（約 （金額略），未註明）",
-   "status": "",
+   "status": "want",
    "title": "Senior Account Executive, Mid Market, GCR (Hong Kong)",
    "url": "https://www.linkedin.com/jobs/view/4466176582/",
    "why": "電商 SaaS（最佳產業），跟 Solution Engineer 搭檔賣 DTC 電商方案，你在 目前公司 做過 20+ 品牌電商和香港／日本跨境上線",
@@ -218,7 +218,7 @@
    "level": "✅ 符合（要求 6–8 年以上 CS／AM／BD）",
    "location": "上海",
    "pay": "預估 base （金額略）（約 （金額略），未註明，可能貼近底線）",
-   "status": "",
+   "status": "want",
    "title": "Enterprise Client Success Executive",
    "url": "https://www.linkedin.com/jobs/view/4471567390/",
    "why": "MarTech SaaS（最佳產業），管大客戶續約、找 upsell、做 QBR，正好是 前公司 上海 CSM（流失率 30%→12%）＋前公司 100% 續約",
@@ -353,12 +353,27 @@
    "level": "✅ 符合（Mid-Senior，要求 5 年以上 solution sales）",
    "location": "台北",
    "pay": "預估 base （金額略）（未註明）",
-   "status": "",
+   "status": "skip",
    "title": "Solutions Account Manager – Taiwan & SEA",
    "url": "https://www.linkedin.com/jobs/view/4479963932/",
    "why": "一半新案、一半續約／upsell 的混合型 AM，跟 Solutions Engineer 搭檔、中英文流利，對得上 目前公司 技術主導大案和 前公司 100% 續約＋25% 擴充",
    "workplace": "未註明",
    "id": "4479963932"
+  },
+  {
+   "company": "Agoda",
+   "date": "2026-10-21",
+   "fit": 65,
+   "gap": "沒有飯店／旅遊／OTA 產業經驗；這是平台招商型 AM（看供給量、價格競爭力），不是賣軟體，也不背傳統 quota",
+   "level": "✅ 符合（要求 5 年以上策略客戶經營）",
+   "location": "台北",
+   "pay": "預估 base （金額略）（未註明，可能貼近底線）",
+   "status": "",
+   "title": "Strategic Account Manager - Taiwan Based",
+   "url": "https://www.linkedin.com/jobs/view/4480759830/",
+   "why": "Booking Holdings 旗下旅遊電商平台，管台灣最重要的飯店夥伴、做 Joint Business Plan、對 C-level 簡報、用 AI 工具和數據找成長機會；要求 5 年以上 AM／BD／電商經驗、中英流利，對得上你 前公司 大客戶經營＋25% 擴充、目前公司 品牌電商和 10 個 AI 工具",
+   "workplace": "未註明",
+   "id": "4480759830"
   },
   {
    "company": "Hitachi Vantara",
@@ -368,7 +383,7 @@
    "level": "✅ 符合（經營指定大客戶＋開發新客戶）",
    "location": "台北",
    "pay": "預估 base （金額略）（未註明）",
-   "status": "",
+   "status": "skip",
    "title": "Commercial Account Manager",
    "url": "https://www.linkedin.com/jobs/view/4480951959/",
    "why": "外商資料基礎架構，經營製造／金融大客戶、背季度營收、帶經銷商，大客戶經營對得上 前公司 7 個大客戶經驗",
@@ -386,7 +401,7 @@
   },
   {
    "have": "partial",
-   "mentions": 53,
+   "mentions": 56,
    "note": "準備一個你直接對品牌高層簡報或談判的例子（例如 （金額略） 等級的案子）。",
    "skill": "C-level／高層關係經營",
    "id": "c-level"
@@ -421,7 +436,7 @@
   },
   {
    "have": "partial",
-   "mentions": 12,
+   "mentions": 19,
    "note": "你在 前公司 用數據找出交叉銷售機會，也用 Google Apps Script 做自動化，可以當作證據。面試前準備一個「用數據找到成長機會」的具體案例，講清楚用了哪些指標和工具。Coupang 等電商平台職缺會直接要求用 SQL／Dashboard 追指標，花一兩週學基本 SQL 查詢就能補上。",
    "skill": "數據分析與報表（Excel 樞紐、BI、成效分析）",
    "id": "data-analytics"
@@ -442,7 +457,7 @@
   },
   {
    "have": "yes",
-   "mentions": 2,
+   "mentions": 3,
    "note": "ShopBack 直接把「用 ChatGPT／Cursor 等工具改善流程」列為必備條件，Shopify 也要求業務「讓 AI agent 和工具處理該做的事」。你自建 10 個 Claude 工具、提案時間從 2 小時降到 10 分鐘、20 位同事採用，這是很強的證據，投遞時放在顯眼位置。",
    "skill": "用生成式 AI 工具提升工作效率",
    "id": "genai-productivity"
@@ -456,7 +471,7 @@
   },
   {
    "have": "partial",
-   "mentions": 2,
+   "mentions": 5,
    "note": "Coupang、ShopBack 這類平台招商職缺要懂平台推薦演算法、促銷檔期和定價。你熟悉品牌官網／OMO 端，但沒有平台端經驗；面試時可講你如何幫品牌規劃檔期和會員導流，補上「站在品牌端看平台」的觀點。",
    "skill": "電商平台營運（演算法、促銷、定價）",
    "id": "marketplace-ops"
@@ -470,28 +485,28 @@
   },
   {
    "have": "partial",
-   "mentions": 68,
+   "mentions": 74,
    "note": "幾乎每個 AE/BD 職缺都要求。你有成交實績，但多數是業務帶進來的案子。面試時準備 1–2 個「從零接觸到簽約」的故事（例如 前公司 的 B2B 轉換、前公司 直銷），並練習講 outbound cadence。",
    "skill": "開發新客戶（new logo／prospecting）",
    "id": "new-logo-hunting"
   },
   {
    "have": "no",
-   "mentions": 6,
+   "mentions": 8,
    "note": "Adyen、Airwallex、Worldpay 都偏好支付或 fintech 背景，且客戶多是跨境電商、零售。若 目前公司 有做過金流串接或跨境（香港、日本）收款相關案子，履歷可以寫成「電商金流整合」經驗來接這類職缺。",
    "skill": "支付／金流產業經驗",
    "id": "payments-fintech"
   },
   {
    "have": "partial",
-   "mentions": 4,
+   "mentions": 7,
    "note": "Workday、Canonical、Meltwater、Checkout.com 都把專案管理列為必備或加分。你寫過 SOW、帶過 API／POS／ERP 整合案，可以在履歷寫成「主導 X 個導入專案從需求到上線」，但沒有正式 PM 證照或 P&L 經驗，不必硬投純導入交付職缺。",
    "skill": "專案管理／導入交付",
    "id": "project-management"
   },
   {
    "have": "partial",
-   "mentions": 64,
+   "mentions": 66,
    "note": "你有貢獻金額（（金額略））和續約率，但沒有「個人 quota 達成率」這種數字。面試前準備好 前公司 時期的個人目標達成數字。",
    "skill": "背業績、pipeline 管理與 forecast",
    "id": "quota-forecast"
@@ -525,8 +540,15 @@
    "id": "team-leadership"
   },
   {
+   "have": "no",
+   "mentions": 4,
+   "note": "Agoda 的客戶經理職缺把飯店或線上旅遊（OTA）經驗列為加分，不是必備。你可以把 目前公司 幫品牌經營電商平台、規劃促銷檔期的經驗，說成「懂平台端怎麼幫供應商衝營收」；面試前花一晚了解飯店收益管理的基本概念（房價、可訂房量、通路占比）。",
+   "skill": "旅遊／飯店／OTA 產業經驗",
+   "id": "travel-ota"
+  },
+  {
    "have": "yes",
-   "mentions": 8,
+   "mentions": 9,
    "note": "香港和大中華區職缺的加分項，你完全符合。",
    "skill": "中英粵三語",
    "id": "trilingual"
@@ -540,7 +562,7 @@
   }
  ],
  "meta": {
-  "jds_read": 117,
+  "jds_read": 124,
   "since": "2026-10-12",
   "updated": "2026-10-21"
  }
