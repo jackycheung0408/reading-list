@@ -49,6 +49,7 @@ header p { margin: 4px 0 0; color: var(--muted); font-size: .88rem; }
 .title:hover { text-decoration: underline; }
 .meta { font-size: .84rem; color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 10px; }
 .tag { font-size: .74rem; border: 1px solid var(--line); border-radius: 4px; padding: 0 6px; }
+.tag.band { border-color: currentColor; font-weight: 600; }
 .tag.new { background: var(--accent-soft); color: var(--accent); border-color: transparent; }
 dl { margin: 0; display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 2px 8px; font-size: .88rem; }
 dt { color: var(--muted); } dd { margin: 0; }
@@ -173,6 +174,10 @@ function renderList() {
       b.textContent = j.status === s ? "✓ " + label : label; b.setAttribute("aria-pressed", j.status === s);
       b.onclick = () => setStatus(j, s); b.disabled = !db; acts.appendChild(b);
     }
+    const band = document.createElement("span");
+    band.className = "tag band " + tone(j.fit);
+    band.textContent = j.fit >= 70 ? "Strong · apply" : j.fit >= 60 ? "Apply · tailor resume" : "Stretch";
+    meta.prepend(band);
     body.append(a, meta, dl, acts);
     art.append(fit, body); list.appendChild(art);
   }
