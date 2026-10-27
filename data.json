@@ -8,7 +8,7 @@
    "level": "✅ 符合（要 5–8 年高科技顧問式銷售）",
    "location": "台北",
    "pay": "預估 base （金額略）（未註明）",
-   "status": "",
+   "status": "skip",
    "title": "Account Executive",
    "url": "https://www.linkedin.com/jobs/view/4305077172/",
    "why": "經營既有客戶的留存、擴充加上賣新產品，是混合型 AE；對得上 目前公司 技術主導大案和 前公司 100% 續約、25% 擴充",
@@ -29,6 +29,21 @@
    "why": "美商上市公司的企業級科技 AE，透過通路／GSI 銷售，中英文都符合",
    "workplace": "未註明",
    "id": "4350121562"
+  },
+  {
+   "company": "Canonical",
+   "date": "2026-10-27",
+   "fit": 52,
+   "gap": "要熟嵌入式 Linux／RTOS；偏重自己開發新客戶",
+   "level": "✅ 符合",
+   "location": "台北",
+   "pay": "預估 base （金額略）（未註明）",
+   "status": "",
+   "title": "Embedded Devices Software Solution Sales Manager",
+   "url": "https://www.linkedin.com/jobs/view/4412493212/",
+   "why": "技術型軟體銷售，背年度業績，同時開發新客戶也經營既有客戶",
+   "workplace": "Remote",
+   "id": "4412493212"
   },
   {
    "company": "Zscaler",
@@ -121,6 +136,21 @@
    "id": "4465507281"
   },
   {
+   "company": "Wireless Logic",
+   "date": "2026-10-27",
+   "fit": 55,
+   "gap": "偏重開發新客戶；沒有 IoT／電信經驗",
+   "level": "✅ 符合（北亞區業務開發）",
+   "location": "台北",
+   "pay": "預估 base （金額略）（未註明）",
+   "status": "",
+   "title": "Sales & Business Development Manager",
+   "url": "https://www.linkedin.com/jobs/view/4465674444/",
+   "why": "英國 IoT 連網公司，做顧問式銷售，跟你的技術串接背景相符",
+   "workplace": "未註明",
+   "id": "4465674444"
+  },
+  {
    "company": "Gartner",
    "date": "2026-10-13",
    "fit": 72,
@@ -136,6 +166,21 @@
    "id": "4465919649"
   },
   {
+   "company": "Emerson (NI)",
+   "date": "2026-10-27",
+   "fit": 58,
+   "gap": "不熟測試量測產業；要靠影響力帶動業務和通路",
+   "level": "✅ 符合（區域軟體業務經理，不需要帶人）",
+   "location": "台北",
+   "pay": "預估 base （金額略）（未註明）",
+   "status": "",
+   "title": "Software Regional Business Manager",
+   "url": "https://www.linkedin.com/jobs/view/4466084109/",
+   "why": "負責軟體的 pipeline、導入、續約和擴充，對得上 前公司 的續約和擴充成績",
+   "workplace": "未註明",
+   "id": "4466084109"
+  },
+  {
    "company": "Shopify",
    "date": "2026-10-21",
    "fit": 66,
@@ -149,6 +194,21 @@
    "why": "電商 SaaS（最佳產業），跟 Solution Engineer 搭檔賣 DTC 電商方案，你在 目前公司 做過 20+ 品牌電商和香港／日本跨境上線",
    "workplace": "未註明",
    "id": "4466176582"
+  },
+  {
+   "company": "Boku",
+   "date": "2026-10-27",
+   "fit": 58,
+   "gap": "沒有支付／電信代扣經驗；成交是售前主導，不是自己背業績",
+   "level": "✅ 符合（BD 經理，既有夥伴加新夥伴）",
+   "location": "台北",
+   "pay": "預估 base （金額略）（未註明）",
+   "status": "",
+   "title": "Business Development Manager (TW/HK/CN)",
+   "url": "https://www.linkedin.com/jobs/view/4466343855/",
+   "why": "一半經營既有支付夥伴、一半開發新夥伴，是混合型；三語剛好涵蓋台港中",
+   "workplace": "未註明",
+   "id": "4466343855"
   },
   {
    "company": "Akamai Technologies",
@@ -263,12 +323,27 @@
    "level": "✅ 符合（要 5 年以上 BD／AM）",
    "location": "香港",
    "pay": "預估 base （金額略）（約 （金額略），未註明）",
-   "status": "",
+   "status": "skip",
    "title": "Associate Director, Business Development (Enterprise Accounts)",
    "url": "https://www.linkedin.com/jobs/view/4472905145/",
    "why": "電商／支付平台（ShopBack Pay）的企業商戶開發與經營，要跟產品、串接團隊合作，對得上 目前公司 品牌電商／OMO 跟串接經驗",
    "workplace": "未註明",
    "id": "4472905145"
+  },
+  {
+   "company": "Microsoft",
+   "date": "2026-10-27",
+   "fit": 55,
+   "gap": "要有資料中心搬遷、資安、Azure 架構的深度經驗；用季度用量目標考核",
+   "level": "偏高但可試（要深厚的雲端專業）",
+   "location": "台北",
+   "pay": "預估 base （金額略）（未註明）",
+   "status": "",
+   "title": "Sr. Azure Specialist",
+   "url": "https://www.linkedin.com/jobs/view/4474735680/",
+   "why": "方案銷售、經營高層、跟夥伴一起賣，技術售前和 AI 工具經驗加分",
+   "workplace": "未註明",
+   "id": "4474735680"
   },
   {
    "company": "JFrog",
@@ -421,6 +496,21 @@
    "id": "4480759830"
   },
   {
+   "company": "Coupang",
+   "date": "2026-10-27",
+   "fit": 55,
+   "gap": "沒有網紅／聯盟行銷經驗；偏策略和營運",
+   "level": "偏高（Principal 層級，主導生態系策略）",
+   "location": "台北",
+   "pay": "預估 base （金額略）（未註明）",
+   "status": "",
+   "title": "Principal, Creator & Affiliate Partnerships",
+   "url": "https://www.linkedin.com/jobs/view/4480787177/",
+   "why": "電商平台，是你最適合的產業；負責夥伴關係和營收成長",
+   "workplace": "未註明",
+   "id": "4480787177"
+  },
+  {
    "company": "Hitachi Vantara",
    "date": "2026-10-21",
    "fit": 58,
@@ -458,7 +548,7 @@
    "level": "偏高但可試（要 7 年夥伴合作／BD 經驗）",
    "location": "台北",
    "pay": "預估 base （金額略）（未註明）",
-   "status": "",
+   "status": "want",
    "title": "Top Partner Manager (Mandarin, English)",
    "url": "https://www.linkedin.com/jobs/view/4481199954/",
    "why": "管理亞太策略夥伴，要懂 AI 應用和跨部門影響力；你的 10 個 AI 工具和三語能力加分",
@@ -484,28 +574,28 @@
  "market": [
   {
    "have": "partial",
-   "mentions": 30,
+   "mentions": 33,
    "note": "你做過 10 個 Claude 自動化工具，這在業務裡很少見。AI 相關職缺可以主打這點。BytePlus 等 AI/MaaS 職缺要的是「賣 AI 產品的成交經驗」，面試時把自建 AI 工具連結到「理解客戶 AI 導入痛點」來講。",
    "skill": "AI 產品／AI 應用銷售",
    "id": "ai-selling"
   },
   {
    "have": "partial",
-   "mentions": 69,
+   "mentions": 74,
    "note": "準備一個你直接對品牌高層簡報或談判的例子（例如 （金額略） 等級的案子）。",
    "skill": "C-level／高層關係經營",
    "id": "c-level"
   },
   {
    "have": "no",
-   "mentions": 55,
+   "mentions": 61,
    "note": "外商科技公司在台灣多半透過 SI／經銷商賣。建議了解 AWS／Microsoft 的 partner 計畫和 co-sell 模式；目前公司 若有跟 SI 或 POS／ERP 廠商合作的案子，可以整理成合作夥伴經驗。",
    "skill": "通路／生態系合作（SI、ISV、經銷商、co-sell）",
    "id": "channel-partner"
   },
   {
    "have": "partial",
-   "mentions": 44,
+   "mentions": 46,
    "note": "你懂 SaaS 和 API 整合，但不懂基礎架構。性價比最高的補法是考 AWS Certified Cloud Practitioner 或 Microsoft AZ-900（約 1 個月），履歷上就有證照可放；Microsoft CSAM 這類職缺會直接列 Azure 證照為加分。",
    "skill": "雲端／資料中心／IT 基礎架構知識",
    "id": "cloud-infra"
@@ -519,7 +609,7 @@
   },
   {
    "have": "no",
-   "mentions": 13,
+   "mentions": 15,
    "note": "台灣外商軟體 AE 職缺很大一塊是資安（Zscaler、Akamai、Palo Alto、Check Point）。不必硬補，但若想打開這塊市場，可先讀 Zscaler／Cloudflare 的 Zero Trust 入門課程，面試能講出基本概念即可。",
    "skill": "資安產品知識（Zero Trust、SASE、WAF）",
    "id": "cybersecurity"
@@ -533,7 +623,7 @@
   },
   {
    "have": "no",
-   "mentions": 13,
+   "mentions": 14,
    "note": "Uber、Yahoo、Google、Smartly 的廣告類職缺都要求數位廣告銷售背景。你可以從 目前公司 協助品牌做 OMO 會員經營與導流的經驗切入，但純廣告業務職缺不建議優先投。",
    "skill": "數位廣告／AdTech 銷售經驗",
    "id": "digital-ads"
@@ -560,6 +650,13 @@
    "id": "genai-productivity"
   },
   {
+   "have": "no",
+   "mentions": 2,
+   "note": "履歷上沒有 IoT／嵌入式 Linux 的經驗。可以用 前公司（車載影像）的裝置相關客戶經驗，加上你做 API／POS 串接的經驗當橋樑；面試前先讀懂 Ubuntu Core 或 SIM 連網管理的基本概念。",
+   "skill": "IoT／嵌入式系統與連網技術知識",
+   "id": "iot-embedded"
+  },
+  {
    "have": "partial",
    "mentions": 7,
    "note": "Moka 香港等新進市場的 AE 會要你「自帶」在地企業客戶名單。你有 目前公司 的 20+ 品牌（含香港跨境案）和 前公司 的 DHL、YouBike 等關係，面試時整理一份「可以重新聯繫的決策者清單」（只列產業與職級，不洩漏機密），證明你帶得來人脈。",
@@ -582,35 +679,35 @@
   },
   {
    "have": "partial",
-   "mentions": 92,
+   "mentions": 101,
    "note": "幾乎每個 AE/BD 職缺都要求。你有成交實績，但多數是業務帶進來的案子。面試時準備 1–2 個「從零接觸到簽約」的故事（例如 前公司 的 B2B 轉換、前公司 直銷），並練習講 outbound cadence。",
    "skill": "開發新客戶（new logo／prospecting）",
    "id": "new-logo-hunting"
   },
   {
    "have": "no",
-   "mentions": 14,
+   "mentions": 17,
    "note": "Adyen、Airwallex、Worldpay 都偏好支付或 fintech 背景，且客戶多是跨境電商、零售。若 目前公司 有做過金流串接或跨境（香港、日本）收款相關案子，履歷可以寫成「電商金流整合」經驗來接這類職缺。",
    "skill": "支付／金流產業經驗",
    "id": "payments-fintech"
   },
   {
    "have": "partial",
-   "mentions": 9,
+   "mentions": 10,
    "note": "Workday、Canonical、Meltwater、Checkout.com 都把專案管理列為必備或加分。你寫過 SOW、帶過 API／POS／ERP 整合案，可以在履歷寫成「主導 X 個導入專案從需求到上線」，但沒有正式 PM 證照或 P&L 經驗，不必硬投純導入交付職缺。",
    "skill": "專案管理／導入交付",
    "id": "project-management"
   },
   {
    "have": "partial",
-   "mentions": 79,
+   "mentions": 86,
    "note": "你有貢獻金額（（金額略））和續約率，但沒有「個人 quota 達成率」這種數字。面試前準備好 前公司 時期的個人目標達成數字。",
    "skill": "背業績、pipeline 管理與 forecast",
    "id": "quota-forecast"
   },
   {
    "have": "yes",
-   "mentions": 35,
+   "mentions": 38,
    "note": "CSM／AM 職缺（Illumio、Microsoft、Kpler、SAP）都要求你自己 forecast 續約、找擴充機會。你有 前公司 100% 續約、25% 擴充成長、前公司 流失率 30%→12% 的數字，投 CSM 職缺時把這三個數字放在履歷最前面。",
    "skill": "續約、擴充與 NRR 經營",
    "id": "renewal-expansion"
@@ -624,7 +721,7 @@
   },
   {
    "have": "yes",
-   "mentions": 60,
+   "mentions": 66,
    "note": "你的強項：70+ demo、30+ discovery、SOW 和方案設計。投遞時放在最前面。",
    "skill": "顧問式／方案銷售（discovery、提案）",
    "id": "solution-selling"
@@ -645,21 +742,21 @@
   },
   {
    "have": "yes",
-   "mentions": 10,
+   "mentions": 11,
    "note": "香港和大中華區職缺的加分項，你完全符合。",
    "skill": "中英粵三語",
    "id": "trilingual"
   },
   {
    "have": "no",
-   "mentions": 26,
+   "mentions": 29,
    "note": "台灣外商 IT 職缺常要求這些產業。你的優勢在零售／電商，建議優先鎖定零售、消費品牌客戶多的軟體公司，而不是硬補半導體。",
    "skill": "半導體／製造／金融產業知識",
    "id": "vertical-semi-mfg-fin"
   }
  ],
  "meta": {
-  "jds_read": 153,
+  "jds_read": 166,
   "since": "2026-10-12",
   "updated": "2026-10-27"
  }
