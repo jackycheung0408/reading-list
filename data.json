@@ -38,7 +38,7 @@
    "level": "✅ 符合",
    "location": "台北",
    "pay": "預估 base （金額略）（未註明）",
-   "status": "",
+   "status": "skip",
    "title": "Embedded Devices Software Solution Sales Manager",
    "url": "https://www.linkedin.com/jobs/view/4412493212/",
    "why": "技術型軟體銷售，背年度業績，同時開發新客戶也經營既有客戶",
@@ -113,7 +113,7 @@
    "level": "✅ 符合（要 4 年以上賣 SaaS 給 C-level）",
    "location": "香港",
    "pay": "預估 base （金額略）（約 （金額略），未註明）",
-   "status": "",
+   "status": "want",
    "title": "Account Executive - Customer Base",
    "url": "https://www.linkedin.com/jobs/view/4455862043/",
    "why": "專做既有大企業客戶的加購與續約，正是你最強的經營既有客戶＋擴充；SaaS 產業，對得上 目前公司 技術主導大案和 前公司 100% 續約、25% 擴充",
@@ -158,7 +158,7 @@
    "level": "✅ 符合（北亞區業務開發）",
    "location": "台北",
    "pay": "預估 base （金額略）（未註明）",
-   "status": "",
+   "status": "skip",
    "title": "Sales & Business Development Manager",
    "url": "https://www.linkedin.com/jobs/view/4465674444/",
    "why": "英國 IoT 連網公司，做顧問式銷售，跟你的技術串接背景相符",
@@ -188,7 +188,7 @@
    "level": "✅ 符合（區域軟體業務經理，不需要帶人）",
    "location": "台北",
    "pay": "預估 base （金額略）（未註明）",
-   "status": "",
+   "status": "skip",
    "title": "Software Regional Business Manager",
    "url": "https://www.linkedin.com/jobs/view/4466084109/",
    "why": "負責軟體的 pipeline、導入、續約和擴充，對得上 前公司 的續約和擴充成績",
@@ -218,7 +218,7 @@
    "level": "✅ 符合（BD 經理，既有夥伴加新夥伴）",
    "location": "台北",
    "pay": "預估 base （金額略）（未註明）",
-   "status": "",
+   "status": "skip",
    "title": "Business Development Manager (TW/HK/CN)",
    "url": "https://www.linkedin.com/jobs/view/4466343855/",
    "why": "一半經營既有支付夥伴、一半開發新夥伴，是混合型；三語剛好涵蓋台港中",
@@ -353,7 +353,7 @@
    "level": "偏高但可試（要深厚的雲端專業）",
    "location": "台北",
    "pay": "預估 base （金額略）（未註明）",
-   "status": "",
+   "status": "skip",
    "title": "Sr. Azure Specialist",
    "url": "https://www.linkedin.com/jobs/view/4474735680/",
    "why": "方案銷售、經營高層、跟夥伴一起賣，技術售前和 AI 工具經驗加分",
@@ -518,7 +518,7 @@
    "level": "偏高（Principal 層級，主導生態系策略）",
    "location": "台北",
    "pay": "預估 base （金額略）（未註明）",
-   "status": "",
+   "status": "skip",
    "title": "Principal, Creator & Affiliate Partnerships",
    "url": "https://www.linkedin.com/jobs/view/4480787177/",
    "why": "電商平台，是你最適合的產業；負責夥伴關係和營收成長",
@@ -586,6 +586,21 @@
    "id": "4482169214"
   },
   {
+   "company": "Meltwater",
+   "date": "2026-10-29",
+   "fit": 68,
+   "gap": "偏交易／行政（報價、合約處理），不是擴充或新案；要搬到上海",
+   "level": "✅ 符合（要 5–8 年 SaaS 續約／CS）",
+   "location": "上海",
+   "pay": "預估 base （金額略）（約 （金額略），下緣低於門檻）",
+   "status": "",
+   "title": "Sr Renewal Manager",
+   "url": "https://www.linkedin.com/jobs/view/4483876309/",
+   "why": "MarTech／媒體監測 SaaS，專責續約營收與舊合約升級，對得上 前公司 100% 續約、前公司 流失率 30%→12%",
+   "workplace": "Hybrid",
+   "id": "4483876309"
+  },
+  {
    "company": "PTC",
    "date": "2026-10-28",
    "fit": 55,
@@ -593,46 +608,68 @@
    "level": "✅ 符合（要 5 年以上企業軟體銷售）",
    "location": "台北",
    "pay": "預估 base （金額略）（未註明）",
-   "status": "",
+   "status": "skip",
    "title": "Channel Account Manager",
    "url": "https://www.linkedin.com/jobs/view/4484034184/",
    "why": "從既有客戶加潛在客戶名單出發，和經銷商、SI 一起賣，管完整銷售週期，是混合型角色；企業軟體＋跨部門協作對得上你的售前經驗",
    "workplace": "未註明",
    "id": "4484034184"
+  },
+  {
+   "company": "Uber",
+   "date": "2026-10-29",
+   "fit": 58,
+   "gap": "純 hunter，從 0 開發中型企業新客戶；成交紀錄是售前主導，不是自己背業績",
+   "level": "✅ 符合（Mid-Senior，要 3 年以上 B2B 銷售）",
+   "location": "台北",
+   "pay": "預估 base （金額略）（未註明）",
+   "status": "",
+   "title": "Sr Account Executive, U4B Mid Market",
+   "url": "https://www.linkedin.com/jobs/view/4484483696/",
+   "why": "平台型 B2B 銷售，管完整銷售週期（資格評估、報價、議約、上線），對得上 目前公司 技術主導大案經驗",
+   "workplace": "Hybrid",
+   "id": "4484483696"
   }
  ],
  "market": [
   {
    "have": "partial",
-   "mentions": 33,
+   "mentions": 35,
    "note": "你做過 10 個 Claude 自動化工具，這在業務裡很少見。AI 相關職缺可以主打這點。BytePlus 等 AI/MaaS 職缺要的是「賣 AI 產品的成交經驗」，面試時把自建 AI 工具連結到「理解客戶 AI 導入痛點」來講。",
    "skill": "AI 產品／AI 應用銷售",
    "id": "ai-selling"
   },
   {
+   "have": "yes",
+   "mentions": 3,
+   "note": "Coupang、Xendit、MongoDB 都要求能和客戶工程團隊討論 API、資料流與整合。你在 目前公司 把 API／POS／ERP 整合、CRM 轉移需求寫成客戶簽核的方案與 SOW，履歷和面試要直接舉一個整合案例說明。",
+   "skill": "API／系統整合的技術溝通能力",
+   "id": "api-integration"
+  },
+  {
    "have": "partial",
-   "mentions": 79,
+   "mentions": 84,
    "note": "準備一個你直接對品牌高層簡報或談判的例子（例如 （金額略） 等級的案子）。",
    "skill": "C-level／高層關係經營",
    "id": "c-level"
   },
   {
    "have": "no",
-   "mentions": 66,
+   "mentions": 69,
    "note": "外商科技公司在台灣多半透過 SI／經銷商賣。建議了解 AWS／Microsoft 的 partner 計畫和 co-sell 模式；目前公司 若有跟 SI 或 POS／ERP 廠商合作的案子，可以整理成合作夥伴經驗。",
    "skill": "通路／生態系合作（SI、ISV、經銷商、co-sell）",
    "id": "channel-partner"
   },
   {
    "have": "partial",
-   "mentions": 47,
+   "mentions": 49,
    "note": "你懂 SaaS 和 API 整合，但不懂基礎架構。性價比最高的補法是考 AWS Certified Cloud Practitioner 或 Microsoft AZ-900（約 1 個月），履歷上就有證照可放；Microsoft CSAM 這類職缺會直接列 Azure 證照為加分。",
    "skill": "雲端／資料中心／IT 基礎架構知識",
    "id": "cloud-infra"
   },
   {
    "have": "partial",
-   "mentions": 33,
+   "mentions": 38,
    "note": "履歷有 CRM 遷移，但沒寫自己用 Salesforce 管 pipeline。若有用過，履歷技能欄補上；沒有的話，Trailhead 免費課程一週就能上手。Elsevier 等外商還會列 Clari、Gong 這類 forecast／通話分析工具，面試時能說出用途即可。",
    "skill": "Salesforce 等 CRM 工具實際操作",
    "id": "crm-salesforce"
@@ -646,14 +683,14 @@
   },
   {
    "have": "partial",
-   "mentions": 27,
+   "mentions": 31,
    "note": "你在 前公司 用數據找出交叉銷售機會，也用 Google Apps Script 做自動化，可以當作證據。面試前準備一個「用數據找到成長機會」的具體案例，講清楚用了哪些指標和工具。Coupang 等電商平台職缺會直接要求用 SQL／Dashboard 追指標，花一兩週學基本 SQL 查詢就能補上。",
    "skill": "數據分析與報表（Excel 樞紐、BI、成效分析）",
    "id": "data-analytics"
   },
   {
    "have": "no",
-   "mentions": 14,
+   "mentions": 17,
    "note": "Uber、Yahoo、Google、Smartly 的廣告類職缺都要求數位廣告銷售背景。你可以從 目前公司 協助品牌做 OMO 會員經營與導流的經驗切入，但純廣告業務職缺不建議優先投。",
    "skill": "數位廣告／AdTech 銷售經驗",
    "id": "digital-ads"
@@ -674,8 +711,8 @@
   },
   {
    "have": "yes",
-   "mentions": 6,
-   "note": "ShopBack 直接把「用 ChatGPT／Cursor 等工具改善流程」列為必備條件，Shopify 也要求業務「讓 AI agent 和工具處理該做的事」。你自建 10 個 Claude 工具、提案時間從 2 小時降到 10 分鐘、20 位同事採用，這是很強的證據，投遞時放在顯眼位置。",
+   "mentions": 7,
+   "note": "ShopBack 直接把「用 ChatGPT／Cursor 等工具改善流程」列為必備條件，Shopify 也要求業務「讓 AI agent 和工具處理該做的事」，SAP 更把「會用 agentic AI 自動化日常工作並推動團隊採用」寫進所有職位的條件。你自建 10 個 Claude 工具、提案時間從 2 小時降到 10 分鐘、20 位同事採用，這是很強的證據，投遞時放在顯眼位置。",
    "skill": "用生成式 AI 工具提升工作效率",
    "id": "genai-productivity"
   },
@@ -685,6 +722,13 @@
    "note": "履歷上沒有 IoT／嵌入式 Linux 的經驗。可以用 前公司（車載影像）的裝置相關客戶經驗，加上你做 API／POS 串接的經驗當橋樑；面試前先讀懂 Ubuntu Core 或 SIM 連網管理的基本概念。",
    "skill": "IoT／嵌入式系統與連網技術知識",
    "id": "iot-embedded"
+  },
+  {
+   "have": "no",
+   "mentions": 1,
+   "note": "Medidata 這類生技製藥 SaaS 偏好有藥廠／CRO 客戶經驗的人。除非特別想轉這個產業，否則不建議花時間補，優先投零售科技、MarTech 類職缺。",
+   "skill": "生技製藥／臨床試驗產業知識",
+   "id": "life-sciences"
   },
   {
    "have": "partial",
@@ -709,14 +753,14 @@
   },
   {
    "have": "partial",
-   "mentions": 109,
+   "mentions": 116,
    "note": "幾乎每個 AE/BD 職缺都要求。你有成交實績，但多數是業務帶進來的案子。面試時準備 1–2 個「從零接觸到簽約」的故事（例如 前公司 的 B2B 轉換、前公司 直銷），並練習講 outbound cadence。",
    "skill": "開發新客戶（new logo／prospecting）",
    "id": "new-logo-hunting"
   },
   {
    "have": "no",
-   "mentions": 19,
+   "mentions": 21,
    "note": "Adyen、Airwallex、Worldpay 都偏好支付或 fintech 背景，且客戶多是跨境電商、零售。若 目前公司 有做過金流串接或跨境（香港、日本）收款相關案子，履歷可以寫成「電商金流整合」經驗來接這類職缺。",
    "skill": "支付／金流產業經驗",
    "id": "payments-fintech"
@@ -730,14 +774,14 @@
   },
   {
    "have": "partial",
-   "mentions": 93,
+   "mentions": 100,
    "note": "你有貢獻金額（（金額略））和續約率，但沒有「個人 quota 達成率」這種數字。面試前準備好 前公司 時期的個人目標達成數字。",
    "skill": "背業績、pipeline 管理與 forecast",
    "id": "quota-forecast"
   },
   {
    "have": "yes",
-   "mentions": 43,
+   "mentions": 49,
    "note": "CSM／AM 職缺（Illumio、Microsoft、Kpler、SAP）都要求你自己 forecast 續約、找擴充機會。你有 前公司 100% 續約、25% 擴充成長、前公司 流失率 30%→12% 的數字，投 CSM 職缺時把這三個數字放在履歷最前面。",
    "skill": "續約、擴充與 NRR 經營",
    "id": "renewal-expansion"
@@ -751,14 +795,14 @@
   },
   {
    "have": "yes",
-   "mentions": 71,
+   "mentions": 77,
    "note": "你的強項：70+ demo、30+ discovery、SOW 和方案設計。投遞時放在最前面。",
    "skill": "顧問式／方案銷售（discovery、提案）",
    "id": "solution-selling"
   },
   {
    "have": "partial",
-   "mentions": 16,
+   "mentions": 17,
    "note": "你在 前公司 帶過 2 位 AM，規模小。投 Manager/Lead 職缺時講清楚你怎麼設定目標、做 coaching、維持 95% SLA；Head/Director 級職缺先不追。",
    "skill": "帶領／建立業務團隊",
    "id": "team-leadership"
@@ -772,7 +816,7 @@
   },
   {
    "have": "yes",
-   "mentions": 12,
+   "mentions": 13,
    "note": "香港和大中華區職缺的加分項，你完全符合。",
    "skill": "中英粵三語",
    "id": "trilingual"
@@ -786,8 +830,8 @@
   }
  ],
  "meta": {
-  "jds_read": 181,
+  "jds_read": 196,
   "since": "2026-10-12",
-  "updated": "2026-10-28"
+  "updated": "2026-10-29"
  }
 }
