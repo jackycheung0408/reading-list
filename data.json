@@ -151,6 +151,21 @@
    "id": "4465507281"
   },
   {
+   "company": "Diebold Nixdorf",
+   "date": "2026-10-30",
+   "fit": 66,
+   "gap": "要帶高 quota 業務團隊（你帶過 2 人）；成交紀錄是 presales 主導非個人 quota；出差 50%",
+   "level": "✅ 符合（要 8+ 年，偏帶隊）",
+   "location": "香港",
+   "pay": "預估 （金額略）（約 （金額略）），高於底線",
+   "status": "",
+   "title": "Senior Account Manager",
+   "url": "https://www.linkedin.com/jobs/view/4465590467/",
+   "why": "零售科技（POS、自助設備、軟體服務）既有客戶經營＋擴充，對應 目前公司 POS 整合與零售品牌經驗",
+   "workplace": "未註明",
+   "id": "4465590467"
+  },
+  {
    "company": "Wireless Logic",
    "date": "2026-10-27",
    "fit": 55,
@@ -629,47 +644,77 @@
    "why": "平台型 B2B 銷售，管完整銷售週期（資格評估、報價、議約、上線），對得上 目前公司 技術主導大案經驗",
    "workplace": "Hybrid",
    "id": "4484483696"
+  },
+  {
+   "company": "Google",
+   "date": "2026-10-30",
+   "fit": 55,
+   "gap": "要 10 年 quota 企業銷售；主力是開發新客戶；沒賣過資料平台（BigQuery、lakehouse）",
+   "level": "偏高（要 10 年 quota 企業銷售）",
+   "location": "台北",
+   "pay": "預估 （金額略）+（含獎金），高於底線",
+   "status": "",
+   "title": "Data Cloud Sales Specialist, Google Cloud",
+   "url": "https://www.linkedin.com/jobs/view/4484511533/",
+   "why": "對高層做 demo／商業案例、與技術窗口合作、中英流利，AI 自動化經驗可當話題",
+   "workplace": "未註明",
+   "id": "4484511533"
+  },
+  {
+   "company": "Amadeus",
+   "date": "2026-10-30",
+   "fit": 62,
+   "gap": "沒有航空／旅遊科技產業經驗；成交紀錄是 presales 主導非個人 quota",
+   "level": "✅ 符合（5–10 年）",
+   "location": "台北",
+   "pay": "預估 （金額略），高於底線",
+   "status": "",
+   "title": "Airline Account Manager",
+   "url": "https://www.linkedin.com/jobs/view/4484933885/",
+   "why": "旅遊科技 SaaS 大客戶經營＋找新商機，中英流利、提案談判、跨部門協作都對得上",
+   "workplace": "Hybrid",
+   "id": "4484933885"
   }
  ],
  "market": [
   {
    "have": "partial",
-   "mentions": 35,
+   "mentions": 37,
    "note": "你做過 10 個 Claude 自動化工具，這在業務裡很少見。AI 相關職缺可以主打這點。BytePlus 等 AI/MaaS 職缺要的是「賣 AI 產品的成交經驗」，面試時把自建 AI 工具連結到「理解客戶 AI 導入痛點」來講。",
    "skill": "AI 產品／AI 應用銷售",
    "id": "ai-selling"
   },
   {
    "have": "yes",
-   "mentions": 3,
+   "mentions": 5,
    "note": "Coupang、Xendit、MongoDB 都要求能和客戶工程團隊討論 API、資料流與整合。你在 目前公司 把 API／POS／ERP 整合、CRM 轉移需求寫成客戶簽核的方案與 SOW，履歷和面試要直接舉一個整合案例說明。",
    "skill": "API／系統整合的技術溝通能力",
    "id": "api-integration"
   },
   {
    "have": "partial",
-   "mentions": 84,
+   "mentions": 91,
    "note": "準備一個你直接對品牌高層簡報或談判的例子（例如 （金額略） 等級的案子）。",
    "skill": "C-level／高層關係經營",
    "id": "c-level"
   },
   {
    "have": "no",
-   "mentions": 69,
+   "mentions": 75,
    "note": "外商科技公司在台灣多半透過 SI／經銷商賣。建議了解 AWS／Microsoft 的 partner 計畫和 co-sell 模式；目前公司 若有跟 SI 或 POS／ERP 廠商合作的案子，可以整理成合作夥伴經驗。",
    "skill": "通路／生態系合作（SI、ISV、經銷商、co-sell）",
    "id": "channel-partner"
   },
   {
    "have": "partial",
-   "mentions": 49,
+   "mentions": 52,
    "note": "你懂 SaaS 和 API 整合，但不懂基礎架構。性價比最高的補法是考 AWS Certified Cloud Practitioner 或 Microsoft AZ-900（約 1 個月），履歷上就有證照可放；Microsoft CSAM 這類職缺會直接列 Azure 證照為加分。",
    "skill": "雲端／資料中心／IT 基礎架構知識",
    "id": "cloud-infra"
   },
   {
    "have": "partial",
-   "mentions": 38,
+   "mentions": 41,
    "note": "履歷有 CRM 遷移，但沒寫自己用 Salesforce 管 pipeline。若有用過，履歷技能欄補上；沒有的話，Trailhead 免費課程一週就能上手。Elsevier 等外商還會列 Clari、Gong 這類 forecast／通話分析工具，面試時能說出用途即可。",
    "skill": "Salesforce 等 CRM 工具實際操作",
    "id": "crm-salesforce"
@@ -683,24 +728,31 @@
   },
   {
    "have": "partial",
-   "mentions": 31,
+   "mentions": 34,
    "note": "你在 前公司 用數據找出交叉銷售機會，也用 Google Apps Script 做自動化，可以當作證據。面試前準備一個「用數據找到成長機會」的具體案例，講清楚用了哪些指標和工具。Coupang 等電商平台職缺會直接要求用 SQL／Dashboard 追指標，花一兩週學基本 SQL 查詢就能補上。",
    "skill": "數據分析與報表（Excel 樞紐、BI、成效分析）",
    "id": "data-analytics"
   },
   {
    "have": "no",
-   "mentions": 17,
+   "mentions": 20,
    "note": "Uber、Yahoo、Google、Smartly 的廣告類職缺都要求數位廣告銷售背景。你可以從 目前公司 協助品牌做 OMO 會員經營與導流的經驗切入，但純廣告業務職缺不建議優先投。",
    "skill": "數位廣告／AdTech 銷售經驗",
    "id": "digital-ads"
   },
   {
    "have": "yes",
-   "mentions": 5,
+   "mentions": 7,
    "note": "Shopify、前公司 Pay、Checkout.com 都要懂電商生態、跨境和商戶痛點。你在 目前公司 做過 20+ 品牌電商和香港／日本跨境上線，投這類職缺時把「懂品牌電商營運＋跨境整合」放在第一段。",
    "skill": "電商／DTC 與跨境電商產業知識",
    "id": "ecommerce-dtc"
+  },
+  {
+   "have": "no",
+   "mentions": 1,
+   "note": "Tektronix 這類量測儀器業務要電子工程背景和 3 年以上儀器銷售經驗，薪資也偏低。不建議補，這類職缺直接略過即可。",
+   "skill": "電子量測／工程背景（電子工程學位、量測儀器銷售）",
+   "id": "ee-test-measurement"
   },
   {
    "have": "partial",
@@ -711,7 +763,7 @@
   },
   {
    "have": "yes",
-   "mentions": 7,
+   "mentions": 8,
    "note": "ShopBack 直接把「用 ChatGPT／Cursor 等工具改善流程」列為必備條件，Shopify 也要求業務「讓 AI agent 和工具處理該做的事」，SAP 更把「會用 agentic AI 自動化日常工作並推動團隊採用」寫進所有職位的條件。你自建 10 個 Claude 工具、提案時間從 2 小時降到 10 分鐘、20 位同事採用，這是很強的證據，投遞時放在顯眼位置。",
    "skill": "用生成式 AI 工具提升工作效率",
    "id": "genai-productivity"
@@ -732,7 +784,7 @@
   },
   {
    "have": "partial",
-   "mentions": 7,
+   "mentions": 10,
    "note": "Moka 香港等新進市場的 AE 會要你「自帶」在地企業客戶名單。你有 目前公司 的 20+ 品牌（含香港跨境案）和 前公司 的 DHL、YouBike 等關係，面試時整理一份「可以重新聯繫的決策者清單」（只列產業與職級，不洩漏機密），證明你帶得來人脈。",
    "skill": "既有在地客戶／夥伴人脈",
    "id": "local-network"
@@ -753,14 +805,14 @@
   },
   {
    "have": "partial",
-   "mentions": 116,
+   "mentions": 127,
    "note": "幾乎每個 AE/BD 職缺都要求。你有成交實績，但多數是業務帶進來的案子。面試時準備 1–2 個「從零接觸到簽約」的故事（例如 前公司 的 B2B 轉換、前公司 直銷），並練習講 outbound cadence。",
    "skill": "開發新客戶（new logo／prospecting）",
    "id": "new-logo-hunting"
   },
   {
    "have": "no",
-   "mentions": 21,
+   "mentions": 24,
    "note": "Adyen、Airwallex、Worldpay 都偏好支付或 fintech 背景，且客戶多是跨境電商、零售。若 目前公司 有做過金流串接或跨境（香港、日本）收款相關案子，履歷可以寫成「電商金流整合」經驗來接這類職缺。",
    "skill": "支付／金流產業經驗",
    "id": "payments-fintech"
@@ -774,17 +826,24 @@
   },
   {
    "have": "partial",
-   "mentions": 100,
+   "mentions": 112,
    "note": "你有貢獻金額（（金額略））和續約率，但沒有「個人 quota 達成率」這種數字。面試前準備好 前公司 時期的個人目標達成數字。",
    "skill": "背業績、pipeline 管理與 forecast",
    "id": "quota-forecast"
   },
   {
    "have": "yes",
-   "mentions": 49,
+   "mentions": 53,
    "note": "CSM／AM 職缺（Illumio、Microsoft、Kpler、SAP）都要求你自己 forecast 續約、找擴充機會。你有 前公司 100% 續約、25% 擴充成長、前公司 流失率 30%→12% 的數字，投 CSM 職缺時把這三個數字放在履歷最前面。",
    "skill": "續約、擴充與 NRR 經營",
    "id": "renewal-expansion"
+  },
+  {
+   "have": "partial",
+   "mentions": 1,
+   "note": "Diebold Nixdorf 要「零售科技顧問」，懂 POS、自助結帳與門市流程。你在 目前公司 做過 POS／ERP 串接與 OMO 門市方案，投零售科技硬體＋軟體公司時，把「幫品牌規劃門市到線上的系統整合」放第一段；硬體設備本身可先讀產品型錄補概念。",
+   "skill": "零售科技／POS 與自助設備解決方案",
+   "id": "retail-tech-pos"
   },
   {
    "have": "no",
@@ -795,43 +854,43 @@
   },
   {
    "have": "yes",
-   "mentions": 77,
+   "mentions": 84,
    "note": "你的強項：70+ demo、30+ discovery、SOW 和方案設計。投遞時放在最前面。",
    "skill": "顧問式／方案銷售（discovery、提案）",
    "id": "solution-selling"
   },
   {
    "have": "partial",
-   "mentions": 17,
+   "mentions": 19,
    "note": "你在 前公司 帶過 2 位 AM，規模小。投 Manager/Lead 職缺時講清楚你怎麼設定目標、做 coaching、維持 95% SLA；Head/Director 級職缺先不追。",
    "skill": "帶領／建立業務團隊",
    "id": "team-leadership"
   },
   {
    "have": "no",
-   "mentions": 5,
+   "mentions": 6,
    "note": "Agoda 的客戶經理職缺把飯店或線上旅遊（OTA）經驗列為加分，不是必備。你可以把 目前公司 幫品牌經營電商平台、規劃促銷檔期的經驗，說成「懂平台端怎麼幫供應商衝營收」；面試前花一晚了解飯店收益管理的基本概念（房價、可訂房量、通路占比）。",
    "skill": "旅遊／飯店／OTA 產業經驗",
    "id": "travel-ota"
   },
   {
    "have": "yes",
-   "mentions": 13,
+   "mentions": 16,
    "note": "香港和大中華區職缺的加分項，你完全符合。",
    "skill": "中英粵三語",
    "id": "trilingual"
   },
   {
    "have": "no",
-   "mentions": 32,
+   "mentions": 35,
    "note": "台灣外商 IT 職缺常要求這些產業。你的優勢在零售／電商，建議優先鎖定零售、消費品牌客戶多的軟體公司，而不是硬補半導體。",
    "skill": "半導體／製造／金融產業知識",
    "id": "vertical-semi-mfg-fin"
   }
  ],
  "meta": {
-  "jds_read": 196,
+  "jds_read": 211,
   "since": "2026-10-12",
-  "updated": "2026-10-29"
+  "updated": "2026-10-30"
  }
 }
