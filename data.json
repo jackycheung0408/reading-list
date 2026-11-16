@@ -211,6 +211,21 @@
    "id": "4466084109"
   },
   {
+   "company": "Elsevier（英國 RELX）",
+   "date": "2026-11-16",
+   "fit": 58,
+   "gap": "缺學術研究／大學與研究機構人脈；台中優先、需國內出差；成交紀錄為 presales 主導、非個人 quota",
+   "level": "✅ 符合（要 7 年以上）",
+   "location": "台北",
+   "pay": "預估 （金額略）（接近底線）",
+   "status": "",
+   "title": "Account Manager（Research Intelligence）",
+   "url": "https://www.linkedin.com/jobs/view/4466168640/",
+   "why": "以經營既有客戶、續約與擴充為主，顧問式方案銷售、Salesforce／forecast 流程",
+   "workplace": "未註明",
+   "id": "4466168640"
+  },
+  {
    "company": "Shopify",
    "date": "2026-10-21",
    "fit": 66,
@@ -848,7 +863,7 @@
    "level": "✅ 符合（最低 4 年，屬資深 IC）",
    "location": "台北",
    "pay": "預估 （金額略）",
-   "status": "",
+   "status": "skip",
    "title": "Strategic Partnership Manager, C3P（YouTube）",
    "url": "https://www.linkedin.com/jobs/view/4487687679/",
    "why": "中英流利、電商背景、談合作與 Joint Business Plan、對 C-level 溝通",
@@ -886,6 +901,21 @@
    "id": "4488744147"
   },
   {
+   "company": "ShopBack（新加坡）",
+   "date": "2026-11-16",
+   "fit": 55,
+   "gap": "要 FMCG／CPG 品牌決策者人脈與 0→1 新產品上市經驗；個人開發新客戶比重高；成交為 presales 主導",
+   "level": "✅ 符合（要 6 年以上，資深 IC）",
+   "location": "台北",
+   "pay": "預估 （金額略）",
+   "status": "",
+   "title": "Strategic / Senior Business Development Manager（E-Receipt）",
+   "url": "https://www.linkedin.com/jobs/view/4488911801/",
+   "why": "賣數據／零售媒體／O2O 方案給品牌，CRM／O2O 為加分項；目前公司 曾服務 Reckitt、Biotherm 等品牌",
+   "workplace": "未註明",
+   "id": "4488911801"
+  },
+  {
    "company": "Canonical",
    "date": "2026-11-10",
    "fit": 54,
@@ -893,7 +923,7 @@
    "level": "✅ 符合（各級別通用招募）",
    "location": "台北",
    "pay": "預估 （金額略） 底薪＋佣金",
-   "status": "",
+   "status": "skip",
    "title": "Open Source Enterprise Sales / Alliances（general track）",
    "url": "https://www.linkedin.com/jobs/view/4489181813/",
    "why": "企業直銷或聯盟夥伴二擇一、經營既有客戶並擴大、合約談判",
@@ -908,12 +938,27 @@
    "level": "✅ 符合（各級別通用招募，依年資定級）",
    "location": "台北",
    "pay": "預估 （金額略） 底薪＋佣金",
-   "status": "",
+   "status": "skip",
    "title": "Enterprise Account Executive（general track）",
    "url": "https://www.linkedin.com/jobs/view/4489402048/",
    "why": "企業軟體銷售、背年度 bookings、新客＋既有客戶並行、配 field engineer 做技術型提案",
    "workplace": "Remote",
    "id": "4489402048"
+  },
+  {
+   "company": "Yahoo EC（Yahoo 台灣電商）",
+   "date": "2026-11-16",
+   "fit": 68,
+   "gap": "要 SQL 自行查數據、Adobe Campaign／SFMC 實操；偏集團內部推廣＋系統負責人，非對外背 quota",
+   "level": "✅ 符合（要 5 年以上，Mid-Senior）",
+   "location": "台北",
+   "pay": "預估 （金額略）（接近底線，需確認）",
+   "status": "",
+   "title": "Solution Sales Manager（MarTech／AI 解決方案）",
+   "url": "https://www.linkedin.com/jobs/view/4489552574/",
+   "why": "電商＋方案銷售／presales 背景都列在最低資格；要 pitch AI agent／自動化工具，可直接拿 10 個 Claude 工具當案例",
+   "workplace": "未註明",
+   "id": "4489552574"
   }
  ],
  "market": [
@@ -926,7 +971,7 @@
   },
   {
    "have": "partial",
-   "mentions": 51,
+   "mentions": 54,
    "note": "你做過 10 個 Claude 自動化工具，這在業務裡很少見。AI 相關職缺可以主打這點。BytePlus 等 AI/MaaS 職缺要的是「賣 AI 產品的成交經驗」，面試時把自建 AI 工具連結到「理解客戶 AI 導入痛點」來講。",
    "skill": "AI 產品／AI 應用銷售",
    "id": "ai-selling"
@@ -940,56 +985,56 @@
   },
   {
    "have": "partial",
-   "mentions": 131,
+   "mentions": 141,
    "note": "準備一個你直接對品牌高層簡報或談判的例子（例如 （金額略） 等級的案子）。",
    "skill": "C-level／高層關係經營",
    "id": "c-level"
   },
   {
    "have": "no",
-   "mentions": 103,
+   "mentions": 107,
    "note": "外商科技公司在台灣多半透過 SI／經銷商賣。建議了解 AWS／Microsoft 的 partner 計畫和 co-sell 模式；目前公司 若有跟 SI 或 POS／ERP 廠商合作的案子，可以整理成合作夥伴經驗。",
    "skill": "通路／生態系合作（SI、ISV、經銷商、co-sell）",
    "id": "channel-partner"
   },
   {
    "have": "partial",
-   "mentions": 72,
+   "mentions": 75,
    "note": "你懂 SaaS 和 API 整合，但不懂基礎架構。性價比最高的補法是考 AWS Certified Cloud Practitioner 或 Microsoft AZ-900（約 1 個月），履歷上就有證照可放；Microsoft CSAM 這類職缺會直接列 Azure 證照為加分。",
    "skill": "雲端／資料中心／IT 基礎架構知識",
    "id": "cloud-infra"
   },
   {
    "have": "partial",
-   "mentions": 57,
+   "mentions": 58,
    "note": "履歷有 CRM 遷移，但沒寫自己用 Salesforce 管 pipeline。若有用過，履歷技能欄補上；沒有的話，Trailhead 免費課程一週就能上手。Elsevier 等外商還會列 Clari、Gong 這類 forecast／通話分析工具，面試時能說出用途即可。",
    "skill": "Salesforce 等 CRM 工具實際操作",
    "id": "crm-salesforce"
   },
   {
    "have": "no",
-   "mentions": 20,
+   "mentions": 22,
    "note": "台灣外商軟體 AE 職缺很大一塊是資安（Zscaler、Akamai、Palo Alto、Check Point）。不必硬補，但若想打開這塊市場，可先讀 Zscaler／Cloudflare 的 Zero Trust 入門課程，面試能講出基本概念即可。",
    "skill": "資安產品知識（Zero Trust、SASE、WAF）",
    "id": "cybersecurity"
   },
   {
    "have": "partial",
-   "mentions": 46,
+   "mentions": 51,
    "note": "你在 前公司 用數據找出交叉銷售機會，也用 Google Apps Script 做自動化，可以當作證據。面試前準備一個「用數據找到成長機會」的具體案例，講清楚用了哪些指標和工具。Coupang 等電商平台職缺會直接要求用 SQL／Dashboard 追指標，花一兩週學基本 SQL 查詢就能補上。",
    "skill": "數據分析與報表（Excel 樞紐、BI、成效分析）",
    "id": "data-analytics"
   },
   {
    "have": "no",
-   "mentions": 28,
+   "mentions": 30,
    "note": "Uber、Yahoo、Google、Smartly 的廣告類職缺都要求數位廣告銷售背景。你可以從 目前公司 協助品牌做 OMO 會員經營與導流的經驗切入，但純廣告業務職缺不建議優先投。",
    "skill": "數位廣告／AdTech 銷售經驗",
    "id": "digital-ads"
   },
   {
    "have": "yes",
-   "mentions": 13,
+   "mentions": 16,
    "note": "Shopify、前公司 Pay、Checkout.com 都要懂電商生態、跨境和商戶痛點。你在 目前公司 做過 20+ 品牌電商和香港／日本跨境上線，投這類職缺時把「懂品牌電商營運＋跨境整合」放在第一段。",
    "skill": "電商／DTC 與跨境電商產業知識",
    "id": "ecommerce-dtc"
@@ -1007,6 +1052,13 @@
    "note": "你在 目前公司 做過 ERP／POS 串接與方案設計，懂技術面但沒賣過 ERP 本身。面試時把串接案講成「幫客戶評估 ERP 整合範圍與 ROI」，並先補 SAP 雲端（RISE）的基本產品概念。",
    "skill": "ERP／企業應用軟體（SAP、Oracle、供應鏈）銷售知識",
    "id": "erp-enterprise-apps"
+  },
+  {
+   "have": "partial",
+   "mentions": 1,
+   "note": "賣數據、零售媒體或 O2O 方案給品牌的 BD 職缺會要求懂品牌怎麼買、誰拍板。可把 目前公司 服務 Reckitt（Durex）、Biotherm、ELEMIS 等品牌的案子包裝成「品牌端數位／會員專案」經驗，並說明接觸過的品牌決策層級。",
+   "skill": "FMCG／CPG 品牌端決策者人脈（行銷、通路行銷預算）",
+   "id": "fmcg-cpg-brand"
   },
   {
    "have": "yes",
@@ -1038,7 +1090,7 @@
   },
   {
    "have": "partial",
-   "mentions": 22,
+   "mentions": 24,
    "note": "Moka 香港等新進市場的 AE 會要你「自帶」在地企業客戶名單。你有 目前公司 的 20+ 品牌（含香港跨境案）和 前公司 的 DHL、YouBike 等關係，面試時整理一份「可以重新聯繫的決策者清單」（只列產業與職級，不洩漏機密），證明你帶得來人脈。",
    "skill": "既有在地客戶／夥伴人脈",
    "id": "local-network"
@@ -1059,14 +1111,14 @@
   },
   {
    "have": "partial",
-   "mentions": 9,
+   "mentions": 11,
    "note": "你在 目前公司 做 OMO、會員 CRM 遷移，在 前公司 做 CRM SaaS，其實就是 MarTech／CX 範疇。投 Adobe、Meltwater 這類職缺時，履歷要直接用「MarTech／CX」這個詞包裝，並補一兩句 CDP、行銷自動化的基本概念。Tata Communications 這類 CPaaS／CCaaS（WhatsApp、LINE、簡訊全通路訊息）職缺也屬此類，可用 目前公司 會員推播與 OMO 導流案例切入。",
    "skill": "MarTech／CX 平台知識（Adobe Experience Cloud、媒體監測等）",
    "id": "martech-cx"
   },
   {
    "have": "partial",
-   "mentions": 182,
+   "mentions": 193,
    "note": "幾乎每個 AE/BD 職缺都要求。你有成交實績，但多數是業務帶進來的案子。面試時準備 1–2 個「從零接觸到簽約」的故事（例如 前公司 的 B2B 轉換、前公司 直銷），並練習講 outbound cadence。",
    "skill": "開發新客戶（new logo／prospecting）",
    "id": "new-logo-hunting"
@@ -1080,7 +1132,7 @@
   },
   {
    "have": "no",
-   "mentions": 32,
+   "mentions": 33,
    "note": "Adyen、Airwallex、Worldpay 都偏好支付或 fintech 背景，且客戶多是跨境電商、零售。若 目前公司 有做過金流串接或跨境（香港、日本）收款相關案子，履歷可以寫成「電商金流整合」經驗來接這類職缺。",
    "skill": "支付／金流產業經驗",
    "id": "payments-fintech"
@@ -1094,14 +1146,14 @@
   },
   {
    "have": "partial",
-   "mentions": 165,
+   "mentions": 174,
    "note": "你有貢獻金額（（金額略））和續約率，但沒有「個人 quota 達成率」這種數字。面試前準備好 前公司 時期的個人目標達成數字。",
    "skill": "背業績、pipeline 管理與 forecast",
    "id": "quota-forecast"
   },
   {
    "have": "yes",
-   "mentions": 81,
+   "mentions": 86,
    "note": "CSM／AM 職缺（Illumio、Microsoft、Kpler、SAP）都要求你自己 forecast 續約、找擴充機會。你有 前公司 100% 續約、25% 擴充成長、前公司 流失率 30%→12% 的數字，投 CSM 職缺時把這三個數字放在履歷最前面。",
    "skill": "續約、擴充與 NRR 經營",
    "id": "renewal-expansion"
@@ -1122,14 +1174,14 @@
   },
   {
    "have": "yes",
-   "mentions": 122,
+   "mentions": 130,
    "note": "你的強項：70+ demo、30+ discovery、SOW 和方案設計。投遞時放在最前面。",
    "skill": "顧問式／方案銷售（discovery、提案）",
    "id": "solution-selling"
   },
   {
    "have": "partial",
-   "mentions": 25,
+   "mentions": 26,
    "note": "你在 前公司 帶過 2 位 AM，規模小。投 Manager/Lead 職缺時講清楚你怎麼設定目標、做 coaching、維持 95% SLA；Head/Director 級職缺先不追。",
    "skill": "帶領／建立業務團隊",
    "id": "team-leadership"
@@ -1157,15 +1209,15 @@
   },
   {
    "have": "no",
-   "mentions": 50,
+   "mentions": 53,
    "note": "台灣外商 IT 職缺常要求這些產業。你的優勢在零售／電商，建議優先鎖定零售、消費品牌客戶多的軟體公司，而不是硬補半導體。",
    "skill": "半導體／製造／金融產業知識",
    "id": "vertical-semi-mfg-fin"
   }
  ],
  "meta": {
-  "jds_read": 298,
+  "jds_read": 313,
   "since": "2026-10-12",
-  "updated": "2026-11-10"
+  "updated": "2026-11-16"
  }
 }
