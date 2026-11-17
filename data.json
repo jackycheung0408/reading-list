@@ -218,7 +218,7 @@
    "level": "✅ 符合（要 7 年以上）",
    "location": "台北",
    "pay": "預估 （金額略）（接近底線）",
-   "status": "",
+   "status": "skip",
    "title": "Account Manager（Research Intelligence）",
    "url": "https://www.linkedin.com/jobs/view/4466168640/",
    "why": "以經營既有客戶、續約與擴充為主，顧問式方案銷售、Salesforce／forecast 流程",
@@ -908,7 +908,7 @@
    "level": "✅ 符合（要 6 年以上，資深 IC）",
    "location": "台北",
    "pay": "預估 （金額略）",
-   "status": "",
+   "status": "skip",
    "title": "Strategic / Senior Business Development Manager（E-Receipt）",
    "url": "https://www.linkedin.com/jobs/view/4488911801/",
    "why": "賣數據／零售媒體／O2O 方案給品牌，CRM／O2O 為加分項；目前公司 曾服務 Reckitt、Biotherm 等品牌",
@@ -953,12 +953,42 @@
    "level": "✅ 符合（要 5 年以上，Mid-Senior）",
    "location": "台北",
    "pay": "預估 （金額略）（接近底線，需確認）",
-   "status": "",
+   "status": "skip",
    "title": "Solution Sales Manager（MarTech／AI 解決方案）",
    "url": "https://www.linkedin.com/jobs/view/4489552574/",
    "why": "電商＋方案銷售／presales 背景都列在最低資格；要 pitch AI agent／自動化工具，可直接拿 10 個 Claude 工具當案例",
    "workplace": "未註明",
    "id": "4489552574"
+  },
+  {
+   "company": "F5（美國）",
+   "date": "2026-11-17",
+   "fit": 55,
+   "gap": "缺通路／經銷夥伴管理經驗與台灣資安通路人脈；應用交付與資安產品非強項；成交為 presales 主導",
+   "level": "✅ 符合（要 5–8 年）",
+   "location": "台北",
+   "pay": "預估 base （金額略）",
+   "status": "",
+   "title": "Partner Account Manager (Taiwan)",
+   "url": "https://www.linkedin.com/jobs/view/4489743971/",
+   "why": "經營與招募通路夥伴、聯合銷售規劃與 enablement，5–8 年資歷吻合，跨部門協作與教育訓練能力可轉移",
+   "workplace": "Hybrid",
+   "id": "4489743971"
+  },
+  {
+   "company": "Teradata（美國）",
+   "date": "2026-11-17",
+   "fit": 70,
+   "gap": "要個人營收目標達成紀錄——你的成交為 presales 主導、非個人 quota；缺資料倉儲／分析平台產業背景",
+   "level": "✅ 符合（Mid-Senior，要 5 年以上）",
+   "location": "台北",
+   "pay": "預估 base （金額略）",
+   "status": "",
+   "title": "Account Executive, Taiwan Existing Business",
+   "url": "https://www.linkedin.com/jobs/view/4490618080/",
+   "why": "經營既有大型企業客戶、續約與擴充為主，賣數據／AI／雲端軟體，對應 前公司 續約擴充＋目前公司 複雜方案銷售與 AI 工具經驗",
+   "workplace": "未註明",
+   "id": "4490618080"
   }
  ],
  "market": [
@@ -971,7 +1001,7 @@
   },
   {
    "have": "partial",
-   "mentions": 54,
+   "mentions": 58,
    "note": "你做過 10 個 Claude 自動化工具，這在業務裡很少見。AI 相關職缺可以主打這點。BytePlus 等 AI/MaaS 職缺要的是「賣 AI 產品的成交經驗」，面試時把自建 AI 工具連結到「理解客戶 AI 導入痛點」來講。",
    "skill": "AI 產品／AI 應用銷售",
    "id": "ai-selling"
@@ -985,28 +1015,28 @@
   },
   {
    "have": "partial",
-   "mentions": 141,
+   "mentions": 149,
    "note": "準備一個你直接對品牌高層簡報或談判的例子（例如 （金額略） 等級的案子）。",
    "skill": "C-level／高層關係經營",
    "id": "c-level"
   },
   {
    "have": "no",
-   "mentions": 107,
+   "mentions": 114,
    "note": "外商科技公司在台灣多半透過 SI／經銷商賣。建議了解 AWS／Microsoft 的 partner 計畫和 co-sell 模式；目前公司 若有跟 SI 或 POS／ERP 廠商合作的案子，可以整理成合作夥伴經驗。",
    "skill": "通路／生態系合作（SI、ISV、經銷商、co-sell）",
    "id": "channel-partner"
   },
   {
    "have": "partial",
-   "mentions": 75,
+   "mentions": 80,
    "note": "你懂 SaaS 和 API 整合，但不懂基礎架構。性價比最高的補法是考 AWS Certified Cloud Practitioner 或 Microsoft AZ-900（約 1 個月），履歷上就有證照可放；Microsoft CSAM 這類職缺會直接列 Azure 證照為加分。",
    "skill": "雲端／資料中心／IT 基礎架構知識",
    "id": "cloud-infra"
   },
   {
    "have": "partial",
-   "mentions": 58,
+   "mentions": 61,
    "note": "履歷有 CRM 遷移，但沒寫自己用 Salesforce 管 pipeline。若有用過，履歷技能欄補上；沒有的話，Trailhead 免費課程一週就能上手。Elsevier 等外商還會列 Clari、Gong 這類 forecast／通話分析工具，面試時能說出用途即可。",
    "skill": "Salesforce 等 CRM 工具實際操作",
    "id": "crm-salesforce"
@@ -1034,7 +1064,7 @@
   },
   {
    "have": "yes",
-   "mentions": 16,
+   "mentions": 18,
    "note": "Shopify、前公司 Pay、Checkout.com 都要懂電商生態、跨境和商戶痛點。你在 目前公司 做過 20+ 品牌電商和香港／日本跨境上線，投這類職缺時把「懂品牌電商營運＋跨境整合」放在第一段。",
    "skill": "電商／DTC 與跨境電商產業知識",
    "id": "ecommerce-dtc"
@@ -1090,7 +1120,7 @@
   },
   {
    "have": "partial",
-   "mentions": 24,
+   "mentions": 27,
    "note": "Moka 香港等新進市場的 AE 會要你「自帶」在地企業客戶名單。你有 目前公司 的 20+ 品牌（含香港跨境案）和 前公司 的 DHL、YouBike 等關係，面試時整理一份「可以重新聯繫的決策者清單」（只列產業與職級，不洩漏機密），證明你帶得來人脈。",
    "skill": "既有在地客戶／夥伴人脈",
    "id": "local-network"
@@ -1118,7 +1148,7 @@
   },
   {
    "have": "partial",
-   "mentions": 193,
+   "mentions": 201,
    "note": "幾乎每個 AE/BD 職缺都要求。你有成交實績，但多數是業務帶進來的案子。面試時準備 1–2 個「從零接觸到簽約」的故事（例如 前公司 的 B2B 轉換、前公司 直銷），並練習講 outbound cadence。",
    "skill": "開發新客戶（new logo／prospecting）",
    "id": "new-logo-hunting"
@@ -1139,21 +1169,21 @@
   },
   {
    "have": "partial",
-   "mentions": 20,
+   "mentions": 22,
    "note": "Workday、Canonical、Meltwater、Checkout.com 都把專案管理列為必備或加分。你寫過 SOW、帶過 API／POS／ERP 整合案，可以在履歷寫成「主導 X 個導入專案從需求到上線」，但沒有正式 PM 證照或 P&L 經驗，不必硬投純導入交付職缺。",
    "skill": "專案管理／導入交付",
    "id": "project-management"
   },
   {
    "have": "partial",
-   "mentions": 174,
+   "mentions": 183,
    "note": "你有貢獻金額（（金額略））和續約率，但沒有「個人 quota 達成率」這種數字。面試前準備好 前公司 時期的個人目標達成數字。",
    "skill": "背業績、pipeline 管理與 forecast",
    "id": "quota-forecast"
   },
   {
    "have": "yes",
-   "mentions": 86,
+   "mentions": 90,
    "note": "CSM／AM 職缺（Illumio、Microsoft、Kpler、SAP）都要求你自己 forecast 續約、找擴充機會。你有 前公司 100% 續約、25% 擴充成長、前公司 流失率 30%→12% 的數字，投 CSM 職缺時把這三個數字放在履歷最前面。",
    "skill": "續約、擴充與 NRR 經營",
    "id": "renewal-expansion"
@@ -1173,15 +1203,22 @@
    "id": "sales-methodology"
   },
   {
+   "have": "partial",
+   "mentions": 1,
+   "note": "IQronix 這類 MSP／軟體外包職缺要能談 T&M 到固定價的合約與 SOW。你在 目前公司 寫過客戶簽核的 SOW 和人天報價，履歷可直接寫「主導 SOW 與報價結構談判」；缺的是多年期服務合約，面試前讀懂 MSP retainer 的計價方式即可。",
+   "skill": "服務型合約結構（SOW、T&M、固定價、MSP 長約）",
+   "id": "services-deal-structuring"
+  },
+  {
    "have": "yes",
-   "mentions": 130,
+   "mentions": 137,
    "note": "你的強項：70+ demo、30+ discovery、SOW 和方案設計。投遞時放在最前面。",
    "skill": "顧問式／方案銷售（discovery、提案）",
    "id": "solution-selling"
   },
   {
    "have": "partial",
-   "mentions": 26,
+   "mentions": 27,
    "note": "你在 前公司 帶過 2 位 AM，規模小。投 Manager/Lead 職缺時講清楚你怎麼設定目標、做 coaching、維持 95% SLA；Head/Director 級職缺先不追。",
    "skill": "帶領／建立業務團隊",
    "id": "team-leadership"
@@ -1202,22 +1239,22 @@
   },
   {
    "have": "yes",
-   "mentions": 28,
+   "mentions": 29,
    "note": "香港和大中華區職缺的加分項，你完全符合。",
    "skill": "中英粵三語",
    "id": "trilingual"
   },
   {
    "have": "no",
-   "mentions": 53,
+   "mentions": 56,
    "note": "台灣外商 IT 職缺常要求這些產業。你的優勢在零售／電商，建議優先鎖定零售、消費品牌客戶多的軟體公司，而不是硬補半導體。",
    "skill": "半導體／製造／金融產業知識",
    "id": "vertical-semi-mfg-fin"
   }
  ],
  "meta": {
-  "jds_read": 313,
+  "jds_read": 326,
   "since": "2026-10-12",
-  "updated": "2026-11-16"
+  "updated": "2026-11-17"
  }
 }
